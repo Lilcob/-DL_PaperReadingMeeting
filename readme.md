@@ -16,14 +16,14 @@ If you would like to attend the meeting or have any questions,
 | NLP| Understanding back translation at scale | [Youtube](https://www.youtube.com/watch?v=htzBkroOLg4&t=12s)<br>[blog]( https://dev-sngwn.github.io/2020-01-07-back-translation/ ) |내용 13 |
 | NLP | Deep Contextualized Word Representations |[Youtube](https://www.youtube.com/watch?v=Vc13QVAKyGk)|내용 13 |
 | NLP | Univiersal LM Fine-tuning for text classification | [Youtube](https://www.youtube.com/watch?v=ZJKtwX2LSbY&t=1173s)|내용 13 |
-| Image | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) |내용 13 |
-| Image  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) |내용 13 |
-| Image  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) |내용 13 |
-| Image  | GAN | [Youtube](https://www.youtube.com/watch?v=UZpuIG1eF8Y&t=147s)|내용 13 |
-| Image | Image Style Transfer Using CNN | [Youtube](https://www.youtube.com/watch?v=8jS0xxslTco&t=905s) |내용 13 |
-| Image  | SINGAN | [Youtube](https://www.youtube.com/watch?v=pgYIuA4O95E)|내용 13 |
-| Image  | FCN | [Youtube](https://www.youtube.com/watch?v=_52dopGu3Cw) |내용 13 |
-| Image| Transfer Learning | [Youtube](https://www.youtube.com/watch?v=sXIurFr804w) |내용 13 |
+| Vision | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) |내용 13 |
+| Vision  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) |내용 13 |
+| Vision  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) |내용 13 |
+| Vision  | GAN | [Youtube](https://www.youtube.com/watch?v=UZpuIG1eF8Y&t=147s)|내용 13 |
+| Vision | Image Style Transfer Using CNN | [Youtube](https://www.youtube.com/watch?v=8jS0xxslTco&t=905s) |내용 13 |
+| Vision  | SINGAN | [Youtube](https://www.youtube.com/watch?v=pgYIuA4O95E)|내용 13 |
+| Vision  | FCN | [Youtube](https://www.youtube.com/watch?v=_52dopGu3Cw) |내용 13 |
+| Vision| Transfer Learning | [Youtube](https://www.youtube.com/watch?v=sXIurFr804w) |내용 13 |
 | Recommend System | Matrix Factorization Technique for Recommender System | [Youtube](https://www.youtube.com/watch?v=Z49JNxS4vsc&t=260s) |내용 13 |
 | Recommend System| Collaborative Filtering for Implicit Feedback Dataset | [Youtube](https://www.youtube.com/watch?v=ePvzTeLOBi4&t=6s) |내용 13 |
 | Speech | A comparison of S2S models for speech recognition | [Youtube](https://www.youtube.com/watch?v=fltpFsNL8TA&t=463s) |내용 13 |
