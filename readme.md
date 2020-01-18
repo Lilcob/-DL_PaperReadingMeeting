@@ -1,6 +1,4 @@
-##Deep learning Paper Reading Meeting Archive
-
-
+# Deep learning Paper Reading Meeting Archive
 This page is an archive of the Deep Learning Paper Reading Meeting.
 If you would like to attend the meeting or have any questions,
  Write in the GitHub issue table or email us at 'tfkeras@kakao.com'
