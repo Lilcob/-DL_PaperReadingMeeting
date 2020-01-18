@@ -13,7 +13,7 @@ If you would like to attend the meeting or have any questions,
 | NLP | SentenceBert |[Youtube](https://www.youtube.com/watch?v=izCeQOOuZpY&t=291s)|내용 13 |
 | NLP | Defending Against neural fake news | [Youtube](https://www.youtube.com/watch?v=cjjfJhYqyeg&t=10s) |내용 13 |
 | NLP| TransformerXL | [Youtube](https://www.youtube.com/watch?v=2SDI7hUoDSU&t=3s)<br>[blog](https://ghk829.github.io/whitecross.github.com//transformer-xl/) |내용 13 |
-| NLP| Understanding back translation at scale | [Youtube](https://www.youtube.com/watch?v=htzBkroOLg4&t=12s) |내용 13 |
+| NLP| Understanding back translation at scale | [Youtube](https://www.youtube.com/watch?v=htzBkroOLg4&t=12s)<br>[blog]( https://dev-sngwn.github.io/2020-01-07-back-translation/ ) |내용 13 |
 | NLP | Deep Contextualized Word Representations |[Youtube](https://www.youtube.com/watch?v=Vc13QVAKyGk)|내용 13 |
 | NLP | Univiersal LM Fine-tuning for text classification | [Youtube](https://www.youtube.com/watch?v=ZJKtwX2LSbY&t=1173s)|내용 13 |
 | Image | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) |내용 13 |
