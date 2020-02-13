@@ -33,3 +33,4 @@ If you would like to attend the meeting or have any questions,
 | Fundamental | Training Confidence-calibrated classifiers for detecting out of distribution samples | [Youtube](https://www.youtube.com/watch?v=NOzDB2Rpbi0&t=150s)|내용 13 |
 | Fundamnetal | AdamW | [Youtube](https://youtu.be/-Sd_zH_LHBo)<br>[blog](https://hiddenbeginner.github.io/deeplearning/paperreview/2019/12/29/paper_review_AdamW.html) |내용 13 |
 | Fundamnetal | Stargan | [Youtube](https://youtu.be/KO_mOGKdxOw) |내용 13 |
+| Fundamnetal | Drop-out | [Youtube](https://www.youtube.com/watch?v=hOgQDK2-lA8) |내용 13 |
