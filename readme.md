@@ -16,6 +16,7 @@ If you would like to attend the meeting or have any questions,
 | NLP| Understanding back translation at scale | [Youtube](https://www.youtube.com/watch?v=htzBkroOLg4&t=12s)<br>[blog]( https://dev-sngwn.github.io/2020-01-07-back-translation/ ) |내용 13 |
 | NLP | Deep Contextualized Word Representations |[Youtube](https://www.youtube.com/watch?v=Vc13QVAKyGk)|내용 13 |
 | NLP | Univiersal LM Fine-tuning for text classification | [Youtube](https://www.youtube.com/watch?v=ZJKtwX2LSbY&t=1173s)|내용 13 |
+| NLP | Subword-level Word Vector Representations for Korean | [Youtube](https://www.youtube.com/watch?v=QR5XFn5rdMQ)|
 | Vision | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) |내용 13 |
 | Vision  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) |내용 13 |
 | Vision  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) |내용 13 |
