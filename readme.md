@@ -24,7 +24,8 @@ If you would like to attend the meeting or have any questions,
 | Vision | Image Style Transfer Using CNN | [Youtube](https://www.youtube.com/watch?v=8jS0xxslTco&t=905s) |내용 13 |
 | Vision  | SINGAN | [Youtube](https://www.youtube.com/watch?v=pgYIuA4O95E)|내용 13 |
 | Vision  | FCN | [Youtube](https://www.youtube.com/watch?v=_52dopGu3Cw) |내용 13 |
-| Vision| Transfer Learning | [Youtube](https://www.youtube.com/watch?v=sXIurFr804w) |내용 13 |
+| Vision | DeepLabV3| [Youtube](https://youtu.be/TjHR9Z9iNLA)
+| Vision | Unet | [Youtube](https://www.youtube.com/watch?v=evPZI9B2LvQ&t=9s)
 | Recommend System | Matrix Factorization Technique for Recommender System | [Youtube](https://www.youtube.com/watch?v=Z49JNxS4vsc&t=260s) |내용 13 |
 | Recommend System| Collaborative Filtering for Implicit Feedback Dataset | [Youtube](https://www.youtube.com/watch?v=ePvzTeLOBi4&t=6s) |내용 13 |
 | Speech | A comparison of S2S models for speech recognition | [Youtube](https://www.youtube.com/watch?v=fltpFsNL8TA&t=463s) |내용 13 |
