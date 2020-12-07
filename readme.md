@@ -25,6 +25,7 @@ If you would like to attend the meeting or have any questions,
 | NLP | Revealing the Dark Secrets of BERT | [Youtube](https://youtu.be/gcar30nhgqQ)|
 | NLP | PEGASUS | [Youtube](https://youtu.be/JhGmeQBbDdA)|
 | NLP | Document-level Neural Machine Translation with Inter-Sentence Attention | [Youtube](https://youtu.be/4QTydWc2xYs) |
+| NLP |  Phrase-Based & Neural Unsupervised Machine | [Youtube](https://www.youtube.com/watch?v=G3rUzTFf_l4) |
 | Vision | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) |내용 13 |
 | Vision  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) |내용 13 |
 | Vision  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) |내용 13 |
@@ -37,6 +38,7 @@ If you would like to attend the meeting or have any questions,
 | Vision | CyCADA | [Youtube](https://youtu.be/DODYdEwebTg)
 | Vision | D-SNE | [Youtube](https://youtu.be/OJe9SgS-GM8)
 | Vision | Faster-RCNN| [Youtube](https://youtu.be/HmJWvwIpW5g)
+| Vision | Weakly Supervised Object DetectionWith Segmentation Collaboration| [Youtube](https://youtu.be/qvWf0aIqaLE)
 | Vision | Don't Judge an Object by Its Context: Learning to Overcome Contextual Bias| [Youtube](https://youtu.be/xTm1gWWSEHM) |내ㅐ용 13 |
 | Vision | data efficient image recognition with contrastive predictive coding| [Youtube](https://youtu.be/-LzFAqOnfTo)|
 | Vision | Deep Feature Consistent Variational Autoencoder| [Youtube](https://youtu.be/Iy0zCVZBO_A)|
