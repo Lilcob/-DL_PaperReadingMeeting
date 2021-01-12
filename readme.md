@@ -3,19 +3,19 @@ This page is an archive of the Deep Learning Paper Reading Meeting.
 If you would like to attend the meeting or have any questions,
  Write in the GitHub issue table or email us at 'tfkeras@kakao.com'
  
-| Tasks | Paper | Link|
-|:---------------|:-------------:|-------------:
-| NLP | Attention is all you need |[Youtube](https://www.youtube.com/watch?v=EyXehqvkfF0)
-| NLP | BERT | [Youtube](https://www.youtube.com/watch?v=vo3cyr_8eDQ&t=7s)
-| NLP | ERNIE| [Youtube](https://www.youtube.com/watch?v=_K6izzEeKYg&t=985s)|내용 13 |
-| NLP | RoBERTa | [Youtube](https://www.youtube.com/watch?v=GiotNYiTiMw&t=6s) |내용 13 |
-| NLP | XLNET | [Youtube](https://www.youtube.com/watch?v=29oxqDRaPNo&t=898s) |내용 13 |
-| NLP | SentenceBert |[Youtube](https://www.youtube.com/watch?v=izCeQOOuZpY&t=291s)|내용 13 |
-| NLP | Defending Against neural fake news | [Youtube](https://www.youtube.com/watch?v=cjjfJhYqyeg&t=10s) |내용 13 |
-| NLP | TransformerXL |[Youtube](https://www.youtube.com/watch?v=2SDI7hUoDSU&t=3s) <br> [blog](https://ghk829.github.io/whitecross.github.com//transformer-xl) |내용 13 |
-| NLP | Understanding back translation at scale | [Youtube](https://www.youtube.com/watch?v=htzBkroOLg4&t=12s) <br> [blog]( https://dev-sngwn.github.io/2020-01-07-back-translation/ ) |내용 13 |
-| NLP | Deep Contextualized Word Representations |[Youtube](https://www.youtube.com/watch?v=Vc13QVAKyGk)|내용 13 |
-| NLP | Univiersal LM Fine-tuning for text classification | [Youtube](https://www.youtube.com/watch?v=ZJKtwX2LSbY&t=1173s)|내용 13 |
+| Tasks | Paper | Link| Performance Index|
+|:---------------|:-------------:|:-------------:|-------------:|
+| NLP | Attention is all you need |[Youtube](https://www.youtube.com/watch?v=EyXehqvkfF0)<br> [Paper](https://arxiv.org/pdf/1706.03762.pdf)|NLP|
+| NLP | BERT | [Youtube](https://www.youtube.com/watch?v=vo3cyr_8eDQ&t=7s) <br> [paper](https://arxiv.org/pdf/1810.04805.pdf)| NLP, Laguage representation|
+| NLP | ERNIE| [Youtube](https://www.youtube.com/watch?v=_K6izzEeKYg&t=985s) <br> [paper](https://arxiv.org/pdf/1905.07129.pdf)| NLP, Laguage representation|
+| NLP | RoBERTa | [Youtube](https://www.youtube.com/watch?v=GiotNYiTiMw&t=6s) <br> [paper](https://arxiv.org/pdf/1907.11692.pdf)| NLP, Laguage representation|
+| NLP | XLNET | [Youtube](https://www.youtube.com/watch?v=29oxqDRaPNo&t=898s) <br> [paper](https://arxiv.org/pdf/1906.08237.pdf)| NLP, Laguage representation|
+| NLP | SentenceBert |[Youtube](https://www.youtube.com/watch?v=izCeQOOuZpY&t=291s)| |
+| NLP | Defending Against neural fake news | [Youtube](https://www.youtube.com/watch?v=cjjfJhYqyeg&t=10s) | |
+| NLP | TransformerXL |[Youtube](https://www.youtube.com/watch?v=2SDI7hUoDSU&t=3s) <br> [blog](https://ghk829.github.io/whitecross.github.com//transformer-xl) | |
+| NLP | Understanding back translation at scale | [Youtube](https://www.youtube.com/watch?v=htzBkroOLg4&t=12s) <br> [blog]( https://dev-sngwn.github.io/2020-01-07-back-translation/ ) ||
+| NLP | Deep Contextualized Word Representations |[Youtube](https://www.youtube.com/watch?v=Vc13QVAKyGk)||
+| NLP | Univiersal LM Fine-tuning for text classification | [Youtube](https://www.youtube.com/watch?v=ZJKtwX2LSbY&t=1173s)||
 | NLP | Subword-level Word Vector Representations for Korean | [Youtube](https://www.youtube.com/watch?v=QR5XFn5rdMQ)|
 | NLP | A Decomposable Attention Model for Natural Language Inference | [Youtube](https://youtu.be/8FcJtvCxI68)|
 | NLP | Reformer | [Youtube](https://youtu.be/B6eLtGKgK68)
@@ -26,20 +26,22 @@ If you would like to attend the meeting or have any questions,
 | NLP | PEGASUS | [Youtube](https://youtu.be/JhGmeQBbDdA)|
 | NLP | Document-level Neural Machine Translation with Inter-Sentence Attention | [Youtube](https://youtu.be/4QTydWc2xYs) |
 | NLP |  Phrase-Based & Neural Unsupervised Machine | [Youtube](https://www.youtube.com/watch?v=G3rUzTFf_l4) |
-| Vision | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) |내용 13 |
-| Vision  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) |내용 13 |
-| Vision  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) |내용 13 |
-| Vision  | GAN | [Youtube](https://www.youtube.com/watch?v=UZpuIG1eF8Y&t=147s) |내용 13 |
-| Vision | Image Style Transfer Using CNN | [Youtube](https://www.youtube.com/watch?v=8jS0xxslTco&t=905s) |내용 13 |
-| Vision  | SINGAN | [Youtube](https://www.youtube.com/watch?v=pgYIuA4O95E) |내용 13 |
-| Vision  | FCN | [Youtube](https://www.youtube.com/watch?v=_52dopGu3Cw) |내용 13 |
+| NLP | BART | [Youtube](https://youtu.be/VmYMnpDLPEo) |
+| NLP | BAE | [Youtube](https://youtu.be/ukkcBtvPB3k) |
+| Vision | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) <br> [paper](https://arxiv.org/pdf/1506.02640.pdf) |Object detection|
+| Vision  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) | |
+| Vision  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) <br> [paper](https://arxiv.org/pdf/1512.03385.pdf) |Image classification|
+| Vision  | GAN | [Youtube](https://www.youtube.com/watch?v=UZpuIG1eF8Y&t=147s) ||
+| Vision | Image Style Transfer Using CNN | [Youtube](https://www.youtube.com/watch?v=8jS0xxslTco&t=905s) | |
+| Vision  | SINGAN | [Youtube](https://www.youtube.com/watch?v=pgYIuA4O95E) | |
+| Vision  | FCN | [Youtube](https://www.youtube.com/watch?v=_52dopGu3Cw) | |
 | Vision | DeepLabV3| [Youtube](https://youtu.be/TjHR9Z9iNLA)
-| Vision | Unet | [Youtube](https://www.youtube.com/watch?v=evPZI9B2LvQ&t=9s)
+| Vision | Unet | [Youtube](https://www.youtube.com/watch?v=evPZI9B2LvQ&t=9s) <br> [paper](https://arxiv.org/pdf/1411.1792.pdf)| 
 | Vision | CyCADA | [Youtube](https://youtu.be/DODYdEwebTg)
 | Vision | D-SNE | [Youtube](https://youtu.be/OJe9SgS-GM8)
 | Vision | Faster-RCNN| [Youtube](https://youtu.be/HmJWvwIpW5g)
 | Vision | Weakly Supervised Object DetectionWith Segmentation Collaboration| [Youtube](https://youtu.be/qvWf0aIqaLE)
-| Vision | Don't Judge an Object by Its Context: Learning to Overcome Contextual Bias| [Youtube](https://youtu.be/xTm1gWWSEHM) |내ㅐ용 13 |
+| Vision | Don't Judge an Object by Its Context: Learning to Overcome Contextual Bias| [Youtube](https://youtu.be/xTm1gWWSEHM) ||
 | Vision | data efficient image recognition with contrastive predictive coding| [Youtube](https://youtu.be/-LzFAqOnfTo)|
 | Vision | Deep Feature Consistent Variational Autoencoder| [Youtube](https://youtu.be/Iy0zCVZBO_A)|
 | Vision | Attention Branch Network: Learning of Attention Mechanism for Visual Explanation| [Youtube](https://youtu.be/8BAGbC0HCVg)|
@@ -55,25 +57,26 @@ If you would like to attend the meeting or have any questions,
 | Vision | Dynamic Routing Between Capsules|[Youtube](https://youtu.be/aH7Hn-Ca_uk) |
 | Vision | Semi-Supervised Classification with Graph Convolutional Network|[Youtube](https://youtu.be/Ft2Q8WQ8ETM) |
 | Vision | Generative Pretraining from Pixels|[Youtube](https://youtu.be/QC9VWEv7qrw) |
-| Vision | MaskFlownet | [Youtube](https://youtu.be/-h2W5-A8qNU) |
-| Recommend System | Matrix Factorization Technique for Recommender System | [Youtube](https://www.youtube.com/watch?v=Z49JNxS4vsc&t=260s) |내용 13 |
-| Recommend System| Collaborative Filtering for Implicit Feedback Dataset | [Youtube](https://www.youtube.com/watch?v=ePvzTeLOBi4&t=6s) |내용 13 |
-| Speech | A comparison of S2S models for speech recognition | [Youtube](https://www.youtube.com/watch?v=fltpFsNL8TA&t=463s) 
-| Fundamental | RAdam | [Youtube](https://www.youtube.com/watch?v=_F5_hgX_lSE) <br> [blog](https://hiddenbeginner.github.io/deeplearning/2019/09/22/optimization_algorithms_in_deep_learning.html) |
+| Vision | MaskFlownet | [Youtube](https://youtu.be/8J3_BeVoCUg) |
+| Vision | Adversarial Robustness through Local Linearization| [Youtube](https://youtu.be/-h2W5-A8qNU) |
+| Recommend System | Matrix Factorization Technique for Recommender System | [Youtube](https://www.youtube.com/watch?v=Z49JNxS4vsc&t=260s) <br> [paper](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf)| Recommendation system |
+| Recommend System| Collaborative Filtering for Implicit Feedback Dataset | [Youtube](https://www.youtube.com/watch?v=ePvzTeLOBi4&t=6s) | |
+| Speech | A comparison of S2S models for speech recognition | [Youtube](https://www.youtube.com/watch?v=fltpFsNL8TA&t=463s)  <br> [paper](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/0233.PDF) | Speech Recognition|
+| Fundamental | RAdam | [Youtube](https://www.youtube.com/watch?v=_F5_hgX_lSE) <br> [blog](https://hiddenbeginner.github.io/deeplearning/2019/09/22/optimization_algorithms_in_deep_learning.html) <br> [paper](https://arxiv.org/pdf/1908.03265.pdf)| Regularization|
 | Fundamental | Stacked Auto Encoder for the P300 Component Detection | [Youtube](https://www.youtube.com/watch?v=ydpZaS1CCRg) |
-| Fundamental | A survey on Image Data Augmentation for DL | [Youtube](https://www.youtube.com/watch?v=TioeCk3yMCo&t=1073s) |
+| Fundamental | A survey on Image Data Augmentation for DL | [Youtube](https://www.youtube.com/watch?v=TioeCk3yMCo&t=1073s) <br>[paper](https://link.springer.com/content/pdf/10.1186%2Fs40537-019-0197-0.pdf) | Data augmentation|
 | Fundamental | Training Confidence-calibrated classifiers for detecting out of distribution samples | [Youtube](https://www.youtube.com/watch?v=NOzDB2Rpbi0&t=150s) |
-| Fundamental | AdamW | [Youtube](https://youtu.be/-Sd_zH_LHBo) <br> [blog](https://hiddenbeginner.github.io/deeplearning/paperreview/2019/12/29/paper_review_AdamW.html) |내용 13 |
-| Fundamental | Stargan | [Youtube](https://youtu.be/KO_mOGKdxOw) |내용 13 |
-| Fundamental | Drop-out | [Youtube](https://www.youtube.com/watch?v=hOgQDK2-lA8) |내용 13 |
-| Fundamental | BLEU - a Method for Automatic Evaluation of Machine Translation | [Youtube](https://youtu.be/61my462pZk0) |내용 13 |
-| Fundamental | t-SNE| [Youtube](https://youtu.be/zCYKD3YfcSM) |내용 13 |
-| Fundamental | Gpipe| [Youtube](https://youtu.be/bbb0bLR0Faw) |내용 13 |
-| Fundamental | explainable ai| [Youtube](https://youtu.be/1WeLdfhRocI) |내용 13 |
-| Fundamental | TAPAS| [Youtube](https://youtu.be/V2hPGrPqR0U) |내용 13 |
-| Fundamental | Learning both Weights and Connections for Efficient Neural Networks| [Youtube](https://youtu.be/Gt2gvhcsPD8) |내용 13 |
-| Fundamental | ReVACNN| [Youtube](https://youtu.be/EBaMig0nMoI) |내용 13 |
-| Fundamental | THE LOTTERY TICKET HYPOTHESIS: FINDING SPARSE, TRAINABLE NEURAL NETWORKS| [Youtube](https://youtu.be/EBaMig0nMoI) |내용 13 |
+| Fundamental | AdamW | [Youtube](https://youtu.be/-Sd_zH_LHBo) <br> [blog](https://hiddenbeginner.github.io/deeplearning/paperreview/2019/12/29/paper_review_AdamW.html) ||
+| Fundamental | Stargan | [Youtube](https://youtu.be/KO_mOGKdxOw) ||
+| Fundamental | Drop-out | [Youtube](https://www.youtube.com/watch?v=hOgQDK2-lA8) ||
+| Fundamental | BLEU - a Method for Automatic Evaluation of Machine Translation | [Youtube](https://youtu.be/61my462pZk0) | |
+| Fundamental | t-SNE| [Youtube](https://youtu.be/zCYKD3YfcSM) ||
+| Fundamental | Gpipe| [Youtube](https://youtu.be/bbb0bLR0Faw) ||
+| Fundamental | explainable ai| [Youtube](https://youtu.be/1WeLdfhRocI) | |
+| Fundamental | TAPAS| [Youtube](https://youtu.be/V2hPGrPqR0U) ||
+| Fundamental | Learning both Weights and Connections for Efficient Neural Networks| [Youtube](https://youtu.be/Gt2gvhcsPD8) ||
+| Fundamental | ReVACNN| [Youtube](https://youtu.be/EBaMig0nMoI) ||
+| Fundamental | THE LOTTERY TICKET HYPOTHESIS: FINDING SPARSE, TRAINABLE NEURAL NETWORKS| [Youtube](https://youtu.be/EBaMig0nMoI) | |
 | Fundamental | ALPHAGO : Mastering the game of Go with Deep Neural Networks and Tree Search| [Youtube](https://youtu.be/huMitou6zDs) |
 | Fundamental | A_BASELINE_FOR_FEW_SHOT_IMAGE_CLASSIFICATION| [Youtube](https://youtu.be/qpCpo7wATto) |
 | Fundamental |  Sharp Minima Can Generalize For Deep Nets| [Youtube](https://youtu.be/5E9SFe5WU1s) |
@@ -85,6 +88,7 @@ If you would like to attend the meeting or have any questions,
 | Fundamental |  generating wikipedia by summarizing long sequences| [Youtube](https://youtu.be/C2xr5IA-4CM) |
 | Fundamental |  Plug and Play Language Models: A Simple Approach to Controlled Text Generation| [Youtube](https://youtu.be/QnsCHRCWEP4) |
 | Fundamental | What Uncertainties Do We Need in Bayesian DeepLearning for Computer Vision?|[Youtube](https://youtu.be/d7y42HfE6uI) |
-
-
+| Fundamental | KRED |[Youtube](https://youtu.be/Xq_FmQ-Sy1U) |
+| Fundamental | Early Stopping as nonparametric Variational  |[Youtube](https://youtu.be/q5AxUQr9KBg) |
+| Fundamental | explaining knowledge distillation by quantifying   |[Youtube](https://youtu.be/3q3iHhgKOY0) |
 
