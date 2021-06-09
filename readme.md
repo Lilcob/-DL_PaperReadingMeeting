@@ -28,6 +28,18 @@ If you would like to attend the meeting or have any questions,
 | NLP |  Phrase-Based & Neural Unsupervised Machine | [Youtube](https://www.youtube.com/watch?v=G3rUzTFf_l4) |
 | NLP | BART | [Youtube](https://youtu.be/VmYMnpDLPEo) |
 | NLP | BAE | [Youtube](https://youtu.be/ukkcBtvPB3k) |
+| NLP | A Generative Model for Joint Natural Language Understanding and Generation | [Youtube](https://youtu.be/Om0aAcZfjxE)|
+| NLP | Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training | [Youtube](https://youtu.be/L_5plaUpBaA)|
+| NLP | Graph Attention Networks | [Youtube](https://youtu.be/shdNuppfClU)|
+| NLP | Switch Transformers | [Youtube](https://youtu.be/82kpTjm-M_g)|
+| NLP | DeText: A Deep Text Ranking Framework with BERT | [Youtube](https://youtu.be/tE_1uiaUf1k)|
+| NLP | Face book Chat bot , Blender bot | [Youtube](https://youtu.be/wd64FDWCmDs)|
+| NLP | Extracting Training Data from Large Language Models | [Youtube](https://youtu.be/NGoDUEz3tZg)|
+| NLP | Longformer: The Long-Document Transformer | [Youtube](https://youtu.be/i7aiBMDExmA)|
+| NLP | Visualizing and Measuring the Geometry of BERT | [Youtube](https://youtu.be/4DXU3MaGHcU)|
+| NLP | Encode, Tag, Realize HighPrecision Text Editing | [Youtube](https://youtu.be/bs_GjHGV5T4)|
+| NLP | multimodal transformer for unaligned multimodal language sequences | [Youtube](https://youtu.be/uEwxvQ9lXAQ)|
+| NLP | SCGPT : Few-shot Natural Language Generation for Task-Oriented Dialog | [Youtube](https://youtu.be/BAZxrp2nrF8)|
 | Vision | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) <br> [paper](https://arxiv.org/pdf/1506.02640.pdf) |Object detection|
 | Vision  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) | |
 | Vision  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) <br> [paper](https://arxiv.org/pdf/1512.03385.pdf) |Image classification|
@@ -59,6 +71,19 @@ If you would like to attend the meeting or have any questions,
 | Vision | Generative Pretraining from Pixels|[Youtube](https://youtu.be/QC9VWEv7qrw) |
 | Vision | MaskFlownet | [Youtube](https://youtu.be/8J3_BeVoCUg) |
 | Vision | Adversarial Robustness through Local Linearization| [Youtube](https://youtu.be/-h2W5-A8qNU) |
+| Vision | Locating Objects Without Bounding Boxes| [Youtube](https://youtu.be/TkcRI31v5_I) |
+| Vision | Training data-efficient image transformers & distillation through attention| [Youtube](https://youtu.be/LYYxv9mv5qw) |
+| Vision | What Makes Training Multi-modalClassification Networks Hard?| [Youtube](https://youtu.be/ZjDRVgA9F1I) |
+| Vision | 2020 CVPR Meta-Transfer Learning for Zero-Shot Super-Resolution| [Youtube](https://youtu.be/lEqbXLrUlW4) |
+| Vision | 2020 ACCV Patch SVDD: Patch-level SVDD for Anomaly Detection and Segmentation| [Youtube](https://youtu.be/RrGVDQLEnq4) |
+| Vision | Style GAN| [Youtube](https://youtu.be/YGQTzYNIL0s) |
+| Vision | HighPerformance Large Scale ImageRecognition Without Normalization| [Youtube](https://youtu.be/HP4evlugOIo) |
+| Vision | Focal Loss for Dense Object Detection| [Youtube](https://youtu.be/d5cHhLyWoeg) |
+| Vision | Editing in Style : Uncovering the Local Semantics of GANs| [Youtube](https://youtu.be/2Gx3_0xpNvM) |
+| Vision | Efficient Net 2| [Youtube](https://youtu.be/uLKqMbOA_vU) |
+| Vision | Style Clip| [Youtube](https://youtu.be/5FwzEP3bYLg) |
+| Vision | Swin Transformer| [Youtube](https://youtu.be/L3sH9tjkvKI) |
+| Vision | NBDT : Neural-backed Decision Tree| [Youtube](https://youtu.be/MdDAug75J6s) |
 | Recommend System | Matrix Factorization Technique for Recommender System | [Youtube](https://www.youtube.com/watch?v=Z49JNxS4vsc&t=260s) <br> [paper](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf)| Recommendation system |
 | Recommend System| Collaborative Filtering for Implicit Feedback Dataset | [Youtube](https://www.youtube.com/watch?v=ePvzTeLOBi4&t=6s) | |
 | Speech | A comparison of S2S models for speech recognition | [Youtube](https://www.youtube.com/watch?v=fltpFsNL8TA&t=463s)  <br> [paper](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/0233.PDF) | Speech Recognition|
@@ -90,5 +115,17 @@ If you would like to attend the meeting or have any questions,
 | Fundamental | What Uncertainties Do We Need in Bayesian DeepLearning for Computer Vision?|[Youtube](https://youtu.be/d7y42HfE6uI) |
 | Fundamental | KRED |[Youtube](https://youtu.be/Xq_FmQ-Sy1U) |
 | Fundamental | Early Stopping as nonparametric Variational  |[Youtube](https://youtu.be/q5AxUQr9KBg) |
-| Fundamental | explaining knowledge distillation by quantifying   |[Youtube](https://youtu.be/3q3iHhgKOY0) |
+| Fundamental | Sharpness Aware Minimization for efficeintly improving generalization   |[Youtube](https://youtu.be/iC3Y85W5tmM) |
+| Fundamental | Neural Graph Collaborative Filtering   |[Youtube](https://youtu.be/ce0LrvVblCU) |
+| Fundamental | Restricting the Flow: Information Bottlenecks for Attribution   |[Youtube](https://youtu.be/eUuXgkzR9MQ) |
+| Fundamental | Real world Anomaly Detection in Surveillance Videos   |[Youtube](https://youtu.be/DYnvX5RaUL0) |
+| Fundamental |  Deep learning model to 2Bit Quantization?! BRECQ Paper review (2021 ICLR)   |[Youtube](https://youtu.be/aT0Fv1PzyV8) |
+| Fundamental | Deep sets (2017 NIPS)   |[Youtube](https://youtu.be/EIZ3z823JQU) |
+| Fundamental | StyleGAN2   |[Youtube](https://youtu.be/XMZWeqx5Vgg) |
+| Fundamental | SOTA - Beyond Synthetic Noise:Deep Learning on Controlled Noisy Labels  |[Youtube](https://youtu.be/s83wjMtdQh8) |
+| Fundamental | Deep Reinforcement Learning for Online Advertising Impression in Recommender Systems   |[Youtube](https://youtu.be/kTT7YsHWodU) |
+| Fundamental | Longformer: The Long-Document Transformer   |[Youtube](https://youtu.be/i7aiBMDExmA) |
+| Fundamental | soft actor critic   |[Youtube](https://youtu.be/HK7Y20Bt7qM) |
+| Fundamental | Loss Function Discovery for Object Detection Via Convergence- Simulation Driven Search   |[Youtube](https://youtu.be/P_yXwbPefQ8) |
+| Fundamental | [2021 ICLR] The Deep Bootstrap Framework:Good Online Learners are good Offline Generalizers    |[Youtube](https://youtu.be/WwXzLCmWvqM) |
 
