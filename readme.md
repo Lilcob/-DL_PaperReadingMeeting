@@ -40,6 +40,8 @@ If you would like to attend the meeting or have any questions,
 | NLP | Encode, Tag, Realize HighPrecision Text Editing | [Youtube](https://youtu.be/bs_GjHGV5T4)|
 | NLP | multimodal transformer for unaligned multimodal language sequences | [Youtube](https://youtu.be/uEwxvQ9lXAQ)|
 | NLP | SCGPT : Few-shot Natural Language Generation for Task-Oriented Dialog | [Youtube](https://youtu.be/BAZxrp2nrF8)|
+| NLP | ColBERT: Efficient and Effective Passage Search viaContextualized Late Interaction over BERT | [Youtube](https://youtu.be/5mynfZA2t7U)|
+| NLP | Restoring and Mining the Records ofthe Joseon Dynasty via Neural LanguageModeling and Machine Translation | [Youtube](https://youtu.be/BkyVMuvO5bE)|
 | Vision | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) <br> [paper](https://arxiv.org/pdf/1506.02640.pdf) |Object detection|
 | Vision  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) | |
 | Vision  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) <br> [paper](https://arxiv.org/pdf/1512.03385.pdf) |Image classification|
@@ -84,6 +86,8 @@ If you would like to attend the meeting or have any questions,
 | Vision | Style Clip| [Youtube](https://youtu.be/5FwzEP3bYLg) |
 | Vision | Swin Transformer| [Youtube](https://youtu.be/L3sH9tjkvKI) |
 | Vision | NBDT : Neural-backed Decision Tree| [Youtube](https://youtu.be/MdDAug75J6s) |
+| Vision | [2020 CVPR] Efficient DET | [Youtube](https://youtu.be/Mq4aqDgZ2bI) |
+| Vision | MLP - MIXER : An all-MLP Architecture for Vision | [Youtube](https://youtu.be/L3vEetyNG_w) |
 | Recommend System | Matrix Factorization Technique for Recommender System | [Youtube](https://www.youtube.com/watch?v=Z49JNxS4vsc&t=260s) <br> [paper](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf)| Recommendation system |
 | Recommend System| Collaborative Filtering for Implicit Feedback Dataset | [Youtube](https://www.youtube.com/watch?v=ePvzTeLOBi4&t=6s) | |
 | Speech | A comparison of S2S models for speech recognition | [Youtube](https://www.youtube.com/watch?v=fltpFsNL8TA&t=463s)  <br> [paper](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/0233.PDF) | Speech Recognition|
@@ -128,4 +132,5 @@ If you would like to attend the meeting or have any questions,
 | Fundamental | soft actor critic   |[Youtube](https://youtu.be/HK7Y20Bt7qM) |
 | Fundamental | Loss Function Discovery for Object Detection Via Convergence- Simulation Driven Search   |[Youtube](https://youtu.be/P_yXwbPefQ8) |
 | Fundamental | [2021 ICLR] The Deep Bootstrap Framework:Good Online Learners are good Offline Generalizers    |[Youtube](https://youtu.be/WwXzLCmWvqM) |
+| Fundamental | Meta HIN  |[Youtube](https://youtu.be/v8bma8QMK7k) |
 
