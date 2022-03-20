@@ -133,4 +133,5 @@ If you would like to attend the meeting or have any questions,
 | Fundamental | Loss Function Discovery for Object Detection Via Convergence- Simulation Driven Search   |[Youtube](https://youtu.be/P_yXwbPefQ8) |
 | Fundamental | [2021 ICLR] The Deep Bootstrap Framework:Good Online Learners are good Offline Generalizers    |[Youtube](https://youtu.be/WwXzLCmWvqM) |
 | Fundamental | Meta HIN  |[Youtube](https://youtu.be/v8bma8QMK7k) |
+| Fundamental | 
 
