@@ -42,6 +42,24 @@ If you would like to attend the meeting or have any questions,
 | NLP | SCGPT : Few-shot Natural Language Generation for Task-Oriented Dialog | [Youtube](https://youtu.be/BAZxrp2nrF8)|
 | NLP | ColBERT: Efficient and Effective Passage Search viaContextualized Late Interaction over BERT | [Youtube](https://youtu.be/5mynfZA2t7U)|
 | NLP | Restoring and Mining the Records ofthe Joseon Dynasty via Neural LanguageModeling and Machine Translation | [Youtube](https://youtu.be/BkyVMuvO5bE)|
+| NLP | Improving Factual Completeness and Consistency of Image to Text Radiology Report Generation | [Youtube](https://youtu.be/OZLcZML7SO8)|
+| NLP | FinBERT | [Youtube](https://youtu.be/FQN8sOi1PTI)|
+| NLP | LayoutLM: Pre-training of Text and Layout for Document Image Understanding | [Youtube](https://youtu.be/3HqAgrcPprQ)|
+| NLP | Query Suggestions as Summarization inExploratory Search | [Youtube](https://youtu.be/AVTZq2rWS0k)|
+| NLP | H-Transformer-1D Paper : Fast One Dimensional Hierarchical Attention For Sequences | [Youtube](https://youtu.be/P19XuHOVyVk)|
+| NLP | End-to-End Progressive Multi-Task Learning Framework for Medical Named Entity Recognition and Normalization | [Youtube](https://youtu.be/kmuET_G1brY)|
+| NLP | DISEASES : Text mining and data integration of disease–gene associations | [Youtube](https://youtu.be/_2rfSxBSFnc)|
+| NLP | RoFormer: Enhanced Transformer with Rotary Position Embedding | [Youtube](https://youtu.be/tRe2XHF6UbQ)|
+| NLP | A Multiscale Visualization of Attention in the Transformer Model | [Youtube](https://youtu.be/Gl2WUBQYEfg)|
+| NLP | CAST: Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees | [Youtube](https://youtu.be/h8YBJzuBSsA)|
+| NLP | MERL:Multimodal Event Representation Learning in Heterogeneous Embedding Spaces | [Youtube](https://youtu.be/shnfzksjm1M)|
+| NLP | Big Bird - Transformers for Longer Sequences | [Youtube](https://youtu.be/vV7fN1eUqbI)|
+| NLP | Decoding-Enhanced BERT with Disentangled Attention | [Youtube](https://youtu.be/hNTkpNk7v-I)|
+| NLP | SentiPrompt: Sentiment Knowledge Enhanced Prompt-Tuning for Aspect-Based Sentiment Analysis | [Youtube](https://youtu.be/V9DlySYag_Q)|
+| NLP | IMPROVING BERT FINE-TUNING VIA SELF-ENSEMBLE AND SELF-DISTILL ATION | [Youtube](https://youtu.be/3PVada1CVYQ)|
+| NLP | ACHIEVING HUMAN PARITY ON VISUAL QUESTION ANSWERING | [Youtube](https://youtu.be/Gcbf0M0Qx9U)|
+| NLP | Deep Encoder, Shallow Decoder: Reevaluating non- autoregressive machine translation | [Youtube](https://youtu.be/sP7Ue_MbiKE)|
+| NLP | LaMDA : Language Models for Dialog Applications | [Youtube](https://youtu.be/re2AiBnFGGk)|
 | Vision | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) <br> [paper](https://arxiv.org/pdf/1506.02640.pdf) |Object detection|
 | Vision  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) | |
 | Vision  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) <br> [paper](https://arxiv.org/pdf/1512.03385.pdf) |Image classification|
@@ -88,6 +106,25 @@ If you would like to attend the meeting or have any questions,
 | Vision | NBDT : Neural-backed Decision Tree| [Youtube](https://youtu.be/MdDAug75J6s) |
 | Vision | [2020 CVPR] Efficient DET | [Youtube](https://youtu.be/Mq4aqDgZ2bI) |
 | Vision | MLP - MIXER : An all-MLP Architecture for Vision | [Youtube](https://youtu.be/L3vEetyNG_w) |
+| Vision | You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection | [Youtube](https://youtu.be/hqRSw_Bu24w) |
+| Vision | Video Prediction ! Hierarchical Long-term Video Frame Prediction without Supervision | [Youtube](https://youtu.be/q15QO9LXYlI) |
+| Vision | Closed-Form Factorization of Latent Semantics in GANs | [Youtube](https://youtu.be/TKmIalR5x8I) |
+| Vision | YOLOR : You Only Learn One Representation: Unified Network for Multiple Tasks |[Youtube](https://youtu.be/bQgQkhaGZG8) |
+| Vision | StyleSpace Analysis |[Youtube](https://youtu.be/JcIe5U5PmLQ) |
+| Vision | Representative graph neural network |[Youtube](https://youtu.be/z-UUq8x1oRw) |
+| Vision | YOLOX |[Youtube](https://youtu.be/N2rLSzEqqI8) |
+| Vision | Joint Contrastive Learning with Infinite Possibilities |[Youtube](https://youtu.be/0NLq-ikBP1I) |
+| Vision | Auto Deep Lab - Hierarchical Neural Architecture Search for Semantic Image Segmentation |[Youtube](https://youtu.be/2886fuyKo9g) |
+| Vision | Explaining in style training a gan to explain a classifier in stylespace |[Youtube](https://youtu.be/pkbLrLSDQ9Q) |
+| Vision | End-to-End Semi-Supervised Object Detection with Soft Teacher |[Youtube](https://youtu.be/7gza1VFjb0k) |
+| Vision | Understanding Dimensional Collapse in Contrastive Self Supervised Learning |[Youtube](https://youtu.be/dO-gD54OlO0) |
+| Vision | Encoding in Style: a Style Encoder for Image-to-Image Translation |[Youtube](https://youtu.be/2QXQZHvx6Ds) |
+| Vision | Detection in Crowded Scenes: One Proposal, Multiple Predictions |[Youtube](https://youtu.be/LPC4m66YZfg) |
+| Vision | A Normalized Gaussian Wasserstein Distance for Tiny Object Detection |[Youtube](https://youtu.be/eGKlg4sZ0Zw) |
+| Vision | Siamese Neural network for one-shot image recognition |[Youtube](https://youtu.be/SthmLerAeis) |
+| Vision | Grounded Language-Image Pre-training |[Youtube](https://youtu.be/krP3t31fWvI) |
+| Vision | Transfer Learning for Pose Estimation of Illustrated Characters |[Youtube](https://youtu.be/wo3Ob174AfY) |
+| Vision | Sparse - RCNN paper explained |[Youtube](https://youtu.be/EvPMwKALqvs) |
 | Recommend System | Matrix Factorization Technique for Recommender System | [Youtube](https://www.youtube.com/watch?v=Z49JNxS4vsc&t=260s) <br> [paper](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf)| Recommendation system |
 | Recommend System| Collaborative Filtering for Implicit Feedback Dataset | [Youtube](https://www.youtube.com/watch?v=ePvzTeLOBi4&t=6s) | |
 | Speech | A comparison of S2S models for speech recognition | [Youtube](https://www.youtube.com/watch?v=fltpFsNL8TA&t=463s)  <br> [paper](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/0233.PDF) | Speech Recognition|
@@ -133,4 +170,19 @@ If you would like to attend the meeting or have any questions,
 | Fundamental | Loss Function Discovery for Object Detection Via Convergence- Simulation Driven Search   |[Youtube](https://youtu.be/P_yXwbPefQ8) |
 | Fundamental | [2021 ICLR] The Deep Bootstrap Framework:Good Online Learners are good Offline Generalizers    |[Youtube](https://youtu.be/WwXzLCmWvqM) |
 | Fundamental | Meta HIN  |[Youtube](https://youtu.be/v8bma8QMK7k) |
-
+| Fundamental | When Vision Transformers Outperform ResNets without Pretraining or Strong Data Augmentations  |[Youtube](https://youtu.be/gB_YmwC1AY0) |
+| Fundamental | Self similarity Student for Partial Label Histopathology Image Segmentation  |[Youtube](https://youtu.be/2Kw-xgpHTqY) |
+| Fundamental | ANALYSING MATHEMATICAL REASONING ABILITIES OF NEURAL MODELS  |[Youtube](https://youtu.be/jE1gJQH5OJI) |
+| Fundamental | Self-training Improves Pre-training for Natural Language Understanding |[Youtube](https://youtu.be/9iJLzmrUN-8) |
+| Fundamental | Preference Amplification in Recommender Systems |[Youtube](https://youtu.be/dM3kDjpSzBk) |
+| Fundamental | Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation |[Youtube](https://youtu.be/UO5iqW3iTFU) |
+| Fundamental | Evaluating Classifiers by Mean of Test Data with Noisy Labels |[Youtube](https://youtu.be/xByR5oix9ms) |
+| Fundamental | Progressive Identification of True Labels for Partial-Label Learning |[Youtube](https://youtu.be/QsvgzjfSFhg) |
+| Fundamental | Fine-grained Interest Matching For Neural News Recommendation |[Youtube](https://youtu.be/XW93QvbFlaQ) |
+| Fundamental | Adversarial Reinforced Learning for Unsupervised Domain Adaptation |[Youtube](https://youtu.be/zeBMMXKj39U) |
+| Fundamental | Neural Tangent Kernel - Convergence and Generalization in neural Network |[Youtube](https://youtu.be/vDQWwOqQ7mo) |
+| Fundamental | Intriguing Properties of Contrastive Losses |[Youtube](https://youtu.be/uzsI-dEoK2c) |
+| Fundamental | Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets |[Youtube](https://youtu.be/mcnSN645xUE) |
+| Fundamental | Transformer Interpretability Beyond Attention Visualization |[Youtube](https://youtu.be/XCED5bd2WT0) |
+| Fundamental | How does unlabeled data improve generalization in self-training? |[Youtube](https://youtu.be/t7dY-k-JBPA) |
+| Fundamental | Rainbow: Combining Improvements in Deep Reinforcement Learning |[Youtube](https://youtu.be/oC1AOIefjT8) |
