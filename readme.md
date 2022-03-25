@@ -10,9 +10,9 @@ If you would like to attend the meeting or have any questions,
 | NLP | ERNIE| [Youtube](https://www.youtube.com/watch?v=_K6izzEeKYg&t=985s) <br> [paper](https://arxiv.org/pdf/1905.07129.pdf)| NLP, Laguage representation|
 | NLP | RoBERTa | [Youtube](https://www.youtube.com/watch?v=GiotNYiTiMw&t=6s) <br> [paper](https://arxiv.org/pdf/1907.11692.pdf)| NLP, Laguage representation|
 | NLP | XLNET | [Youtube](https://www.youtube.com/watch?v=29oxqDRaPNo&t=898s) <br> [paper](https://arxiv.org/pdf/1906.08237.pdf)| NLP, Laguage representation|
-| NLP | SentenceBert |[Youtube](https://www.youtube.com/watch?v=izCeQOOuZpY&t=291s)| |
-| NLP | Defending Against neural fake news | [Youtube](https://www.youtube.com/watch?v=cjjfJhYqyeg&t=10s) | |
-| NLP | TransformerXL |[Youtube](https://www.youtube.com/watch?v=2SDI7hUoDSU&t=3s) <br> [blog](https://ghk829.github.io/whitecross.github.com//transformer-xl) | |
+| NLP | SentenceBert |[Youtube](https://www.youtube.com/watch?v=izCeQOOuZpY&t=291s)|Semantic Similarity |
+| NLP | Defending Against neural fake news | [Youtube](https://www.youtube.com/watch?v=cjjfJhYqyeg&t=10s) | Fake News Detection, Text Generation |
+| NLP | TransformerXL |[Youtube](https://www.youtube.com/watch?v=2SDI7hUoDSU&t=3s) <br> [blog](https://ghk829.github.io/whitecross.github.com//transformer-xl) |Language Modelling |
 | NLP | Understanding back translation at scale | [Youtube](https://www.youtube.com/watch?v=htzBkroOLg4&t=12s) <br> [blog]( https://dev-sngwn.github.io/2020-01-07-back-translation/ ) ||
 | NLP | Deep Contextualized Word Representations |[Youtube](https://www.youtube.com/watch?v=Vc13QVAKyGk)||
 | NLP | Univiersal LM Fine-tuning for text classification | [Youtube](https://www.youtube.com/watch?v=ZJKtwX2LSbY&t=1173s)||
