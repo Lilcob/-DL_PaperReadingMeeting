@@ -188,9 +188,7 @@ If you would like to attend the meeting or have any questions,
 | Fundamental | Rainbow: Combining Improvements in Deep Reinforcement Learning |[Youtube](https://youtu.be/oC1AOIefjT8) |
 
 
-
-
-###펀디멘탈팀팀  
+### 펀디멘탈팀팀  
 
 | 성함 | 이재윤(팀장) | 송헌 | 박종익 | 김동현 | 이근배 | 양현모 | 김채현 | 오대환 |
 |:---------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
@@ -207,7 +205,7 @@ If you would like to attend the meeting or have any questions,
 | **논문** | 이재윤 | 송헌 | 박종익 | 김동현 | 이근배 | 양현모 | 김채현 | 오대환 |
 
 
-###자연어처리팀1  
+### 자연어처리팀1  
 
 | 성함 | 박희수(팀장) | 황경진 | 진명훈 | 조진욱 | 김수빈 | 신문종 |
 |:---------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
@@ -225,7 +223,7 @@ If you would like to attend the meeting or have any questions,
 | **논문** | 박희수 | 황경진 | 진명훈 | 조진욱 | 김수빈 | 신문종 |
 
 
-###자연어처리2  
+### 자연어처리2  
 
 | 성함 | 주정헌(팀장) | 백지윤 | 아이린 | 최상우 | 민지원 | 문의현 |
 |:---------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
@@ -244,7 +242,7 @@ If you would like to attend the meeting or have any questions,
 | **논문** | 주정헌 | 백지윤 | 아이린 | 최상우 | 민지원 | 문의현 |
 
 
-###이미지처리팀1  
+### 이미지처리팀1  
 
 | 성함 | 김병현(팀장) | 김선옥 | 김현진 | 안종식 | 이찬혁 | 홍은기 | 현청천 | 박재완 |
 |:---------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
@@ -263,10 +261,10 @@ If you would like to attend the meeting or have any questions,
 | **논문** | 김병현(팀장) | 김선옥 | 김현진 | 안종식 | 이찬혁 | 홍은기 | 현청천 | 박재완 |
 
 
-###이미지처리팀2  
+### 이미지처리팀2  
 
-| 성함 | 김병현(팀장) | 고형권 | 고형권 | 김준철 | 조경진 | 이예은 |
-|:---------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| 성함 | 김병현(팀장) | 고형권 | 김준철 | 조경진 | 이예은 |
+|:---------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | **사진** | <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e9684aaa-2b93-4cd5-8463-11b931a0f9a9/DDC302E8-8A76-42E1-B38F-17584A0E9CAD_4_5005_c.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T135736Z&X-Amz-Expires=86400&X-Amz-Signature=cd4484d023cbc4849aa350cdd3afa774d1f2fa0af2d7fd7ea4a192912db5af7c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22DDC302E8-8A76-42E1-B38F-17584A0E9CAD_4_5005_c.jpeg%22&x-id=GetObject" width="50" height="50"> | 고형권 | 김준철 | 조경진 | <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e1b4fb9c-7e64-452a-9cae-79cff44cfca2/758AFBB0-A8AD-4043-B756-3AFF4B128D68.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T141022Z&X-Amz-Expires=86400&X-Amz-Signature=f537535d4135fe937b308f89d10fa6144175cc0eaf642d2cf439ffa037a0118b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22758AFBB0-A8AD-4043-B756-3AFF4B128D68.jpeg%22&x-id=GetObject" width="50" height="50"> |
 | **메일** | 김병현(팀장) | 고형권 | 김준철 | 조경진 | 이예은 |
 | **논문** | 김병현(팀장) | Real world Anomaly Detection in Surveillance Videos | Encoding in Style | Joint Contrastive Learning with Infinite Possibilities | Siamese Neural network for one-shot image recognition |
@@ -276,3 +274,4 @@ If you would like to attend the meeting or have any questions,
 | **논문** | 김병현(팀장) | 고형권 | 김준철 | 조경진 | 이예은 |
 | **논문** | 김병현(팀장) | 고형권 | 김준철 | 조경진 | 이예은 |
 | **논문** | 김병현(팀장) | 고형권 | 김준철 | 조경진 | 이예은 |
+
