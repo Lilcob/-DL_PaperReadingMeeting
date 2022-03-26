@@ -5,16 +5,16 @@ If you would like to attend the meeting or have any questions,
  
 | Tasks | Paper | Link| Performance Index|
 |:---------------|:-------------:|:-------------:|-------------:|
-| NLP | Attention is all you need |[Youtube](https://www.youtube.com/watch?v=EyXehqvkfF0)<br> [Paper](https://arxiv.org/pdf/1706.03762.pdf)|NLP|
-| NLP | BERT | [Youtube](https://www.youtube.com/watch?v=vo3cyr_8eDQ&t=7s) <br> [paper](https://arxiv.org/pdf/1810.04805.pdf)| NLP, Laguage representation|
-| NLP | ERNIE| [Youtube](https://www.youtube.com/watch?v=_K6izzEeKYg&t=985s) <br> [paper](https://arxiv.org/pdf/1905.07129.pdf)| NLP, Laguage representation|
-| NLP | RoBERTa | [Youtube](https://www.youtube.com/watch?v=GiotNYiTiMw&t=6s) <br> [paper](https://arxiv.org/pdf/1907.11692.pdf)| NLP, Laguage representation|
-| NLP | XLNET | [Youtube](https://www.youtube.com/watch?v=29oxqDRaPNo&t=898s) <br> [paper](https://arxiv.org/pdf/1906.08237.pdf)| NLP, Laguage representation|
-| NLP | SentenceBert |[Youtube](https://www.youtube.com/watch?v=izCeQOOuZpY&t=291s)|Semantic Similarity |
+| NLP | Attention is all you need |[Youtube](https://www.youtube.com/watch?v=EyXehqvkfF0)<br> [Paper](https://arxiv.org/pdf/1706.03762.pdf)|Abstractive Text Summarization, Constituency Parsing|
+| NLP | BERT | [Youtube](https://www.youtube.com/watch?v=vo3cyr_8eDQ&t=7s) <br> [paper](https://arxiv.org/pdf/1810.04805.pdf)| Autoencoding Transformers, Transformers, Language Models|
+| NLP | ERNIE| [Youtube](https://www.youtube.com/watch?v=_K6izzEeKYg&t=985s) <br> [paper](https://arxiv.org/pdf/1905.07129.pdf)| Chinese Named Entity Recognition, Chinese Sentence Pair Classification |
+| NLP | RoBERTa | [Youtube](https://www.youtube.com/watch?v=GiotNYiTiMw&t=6s) <br> [paper](https://arxiv.org/pdf/1907.11692.pdf)| Autoencoding Transformers, Transformers|
+| NLP | XLNET | [Youtube](https://www.youtube.com/watch?v=29oxqDRaPNo&t=898s) <br> [paper](https://arxiv.org/pdf/1906.08237.pdf)| Autoregressive Transformers, Transformers|
+| NLP | SentenceBert |[Youtube](https://www.youtube.com/watch?v=izCeQOOuZpY&t=291s)| Linear-Probe Classification, Semantic Similarity |
 | NLP | Defending Against neural fake news | [Youtube](https://www.youtube.com/watch?v=cjjfJhYqyeg&t=10s) | Fake News Detection, Text Generation |
-| NLP | TransformerXL |[Youtube](https://www.youtube.com/watch?v=2SDI7hUoDSU&t=3s) <br> [blog](https://ghk829.github.io/whitecross.github.com//transformer-xl) |Language Modelling |
-| NLP | Understanding back translation at scale | [Youtube](https://www.youtube.com/watch?v=htzBkroOLg4&t=12s) <br> [blog]( https://dev-sngwn.github.io/2020-01-07-back-translation/ ) ||
-| NLP | Deep Contextualized Word Representations |[Youtube](https://www.youtube.com/watch?v=Vc13QVAKyGk)||
+| NLP | Transformer-XL |[Youtube](https://www.youtube.com/watch?v=2SDI7hUoDSU&t=3s) <br> [blog](https://ghk829.github.io/whitecross.github.com//transformer-xl) |Language Modelling |
+| NLP | Understanding back translation at scale | [Youtube](https://www.youtube.com/watch?v=htzBkroOLg4&t=12s) <br> [blog]( https://dev-sngwn.github.io/2020-01-07-back-translation/ ) | Machine Translation, Translation|
+| NLP | Deep Contextualized Word Representations |[Youtube](https://www.youtube.com/watch?v=Vc13QVAKyGk)|Citation Intent Classification , Conversational Response Selection|
 | NLP | Univiersal LM Fine-tuning for text classification | [Youtube](https://www.youtube.com/watch?v=ZJKtwX2LSbY&t=1173s)||
 | NLP | Subword-level Word Vector Representations for Korean | [Youtube](https://www.youtube.com/watch?v=QR5XFn5rdMQ)|
 | NLP | A Decomposable Attention Model for Natural Language Inference | [Youtube](https://youtu.be/8FcJtvCxI68)|
