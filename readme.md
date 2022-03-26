@@ -17,19 +17,20 @@ If you would like to attend the meeting or have any questions,
 | NLP | Deep Contextualized Word Representations |[Youtube](https://www.youtube.com/watch?v=Vc13QVAKyGk)|Citation Intent Classification , Conversational Response Selection|
 | NLP | Univiersal LM Fine-tuning for text classification | [Youtube](https://www.youtube.com/watch?v=ZJKtwX2LSbY&t=1173s)|Classification, General Classification|
 | NLP | Subword-level Word Vector Representations for Korean | [Youtube](https://www.youtube.com/watch?v=QR5XFn5rdMQ)| Document Classification, Language Modelling|
-| NLP | A Decomposable Attention Model for Natural Language Inference | [Youtube](https://youtu.be/8FcJtvCxI68)||
-| NLP | Reformer | [Youtube](https://youtu.be/B6eLtGKgK68)||
-| NLP | Neural Machine Translation by Jointly Learning to Align and Translate | [Youtube](https://youtu.be/l9pWT6BHpj0)||
-| NLP | ELECTRA | [Youtube](https://youtu.be/BGRculoppT8)||
-| NLP | SBERT_WK | [Youtube](https://youtu.be/qXZ80xn8DDU)||
-| NLP | Revealing the Dark Secrets of BERT | [Youtube](https://youtu.be/gcar30nhgqQ)||
-| NLP | PEGASUS | [Youtube](https://youtu.be/JhGmeQBbDdA)||
-| NLP | Document-level Neural Machine Translation with Inter-Sentence Attention | [Youtube](https://youtu.be/4QTydWc2xYs) ||
-| NLP |  Phrase-Based & Neural Unsupervised Machine | [Youtube](https://www.youtube.com/watch?v=G3rUzTFf_l4) ||
-| NLP | BART | [Youtube](https://youtu.be/VmYMnpDLPEo) ||
-| NLP | BAE | [Youtube](https://youtu.be/ukkcBtvPB3k) ||
-| NLP | A Generative Model for Joint Natural Language Understanding and Generation | [Youtube](https://youtu.be/Om0aAcZfjxE)||
-| NLP | Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training | [Youtube](https://youtu.be/L_5plaUpBaA)||
+| NLP | A Decomposable Attention Model for Natural Language Inference | [Youtube](https://youtu.be/8FcJtvCxI68)| Natural Language Inference|
+| NLP | Reformer | [Youtube](https://youtu.be/B6eLtGKgK68)|Transformers|
+| NLP | Neural Machine Translation by Jointly Learning to Align and Translate | [Youtube](https://youtu.be/l9pWT6BHpj0)|Dialogue Generation, Machine Translation|
+| NLP | ELECTRA | [Youtube](https://youtu.be/BGRculoppT8)| Autoencoding Transformers
+, Transformers|
+| NLP | SBERT-WK | [Youtube](https://youtu.be/qXZ80xn8DDU)| Semantic Textual Similarity, Sentence Embedding|
+| NLP | Revealing the Dark Secrets of BERT | [Youtube](https://youtu.be/gcar30nhgqQ)|BERT|
+| NLP | PEGASUS | [Youtube](https://youtu.be/JhGmeQBbDdA)|Abstractive Text Summarization|
+| NLP | Document-level Neural Machine Translation with Inter-Sentence Attention | [Youtube](https://youtu.be/4QTydWc2xYs) |Machine Translation, Translation|
+| NLP |  Phrase-Based & Neural Unsupervised Machine | [Youtube](https://www.youtube.com/watch?v=G3rUzTFf_l4) |Translation, Unsupervised Machine Translation|
+| NLP | BART | [Youtube](https://youtu.be/VmYMnpDLPEo) |Sequence To Sequence Models, Transformers|
+| NLP | BAE | [Youtube](https://youtu.be/ukkcBtvPB3k) | Adversarial Attack, Adversarial Text|
+| NLP | A Generative Model for Joint Natural Language Understanding and Generation | [Youtube](https://youtu.be/Om0aAcZfjxE)| Natural Language Understanding, Task-Oriented Dialogue Systems|
+| NLP | Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training | [Youtube](https://youtu.be/L_5plaUpBaA)| Language Modelling, self-Supervised Learning|
 | NLP | Graph Attention Networks | [Youtube](https://youtu.be/shdNuppfClU)||
 | NLP | Switch Transformers | [Youtube](https://youtu.be/82kpTjm-M_g)||
 | NLP | DeText: A Deep Text Ranking Framework with BERT | [Youtube](https://youtu.be/tE_1uiaUf1k)||
