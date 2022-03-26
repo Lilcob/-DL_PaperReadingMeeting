@@ -190,7 +190,7 @@ If you would like to attend the meeting or have any questions,
 | Fundamental | Rainbow: Combining Improvements in Deep Reinforcement Learning |[Youtube](https://youtu.be/oC1AOIefjT8) ||
 
 
-### 펀디멘탈팀팀  
+### 펀디멘탈팀  
 
 | 성함 | 이재윤(팀장) | 송헌 | 박종익 | 김동현 | 이근배 | 양현모 | 김채현 | 오대환 |
 |:---------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
