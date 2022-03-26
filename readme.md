@@ -31,16 +31,16 @@ If you would like to attend the meeting or have any questions,
 | NLP | BAE | [Youtube](https://youtu.be/ukkcBtvPB3k) | Adversarial Attack, Adversarial Text|
 | NLP | A Generative Model for Joint Natural Language Understanding and Generation | [Youtube](https://youtu.be/Om0aAcZfjxE)| Natural Language Understanding, Task-Oriented Dialogue Systems|
 | NLP | Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training | [Youtube](https://youtu.be/L_5plaUpBaA)| Language Modelling, self-Supervised Learning|
-| NLP | Graph Attention Networks | [Youtube](https://youtu.be/shdNuppfClU)||
-| NLP | Switch Transformers | [Youtube](https://youtu.be/82kpTjm-M_g)||
-| NLP | DeText: A Deep Text Ranking Framework with BERT | [Youtube](https://youtu.be/tE_1uiaUf1k)||
-| NLP | Face book Chat bot , Blender bot | [Youtube](https://youtu.be/wd64FDWCmDs)||
-| NLP | Extracting Training Data from Large Language Models | [Youtube](https://youtu.be/NGoDUEz3tZg)||
-| NLP | Longformer: The Long-Document Transformer | [Youtube](https://youtu.be/i7aiBMDExmA)||
-| NLP | Visualizing and Measuring the Geometry of BERT | [Youtube](https://youtu.be/4DXU3MaGHcU)||
-| NLP | Encode, Tag, Realize HighPrecision Text Editing | [Youtube](https://youtu.be/bs_GjHGV5T4)||
-| NLP | multimodal transformer for unaligned multimodal language sequences | [Youtube](https://youtu.be/uEwxvQ9lXAQ)||
-| NLP | SCGPT : Few-shot Natural Language Generation for Task-Oriented Dialog | [Youtube](https://youtu.be/BAZxrp2nrF8)||
+| NLP | Graph Attention Networks | [Youtube](https://youtu.be/shdNuppfClU)| Document Classification, Graph Attention|
+| NLP | Switch Transformers | [Youtube](https://youtu.be/82kpTjm-M_g)| Language Modelling, Question Answering|
+| NLP | DeText: A Deep Text Ranking Framework with BERT | [Youtube](https://youtu.be/tE_1uiaUf1k)|Ranking|
+| NLP | Face book Chat bot , Blender bot | [Youtube](https://youtu.be/wd64FDWCmDs)|Chatbot|
+| NLP | Extracting Training Data from Large Language Models | [Youtube](https://youtu.be/NGoDUEz3tZg)| Language Modelling|
+| NLP | Longformer: The Long-Document Transformer | [Youtube](https://youtu.be/i7aiBMDExmA)| Language Modelling, Question Answering|
+| NLP | Visualizing and Measuring the Geometry of BERT | [Youtube](https://youtu.be/4DXU3MaGHcU)|Word Embeddings|
+| NLP | Encode, Tag, Realize High Precision Text Editing | [Youtube](https://youtu.be/bs_GjHGV5T4)| Abstractive Text Summarization, Sentence Fusion|
+| NLP | multimodal transformer for unaligned multimodal language sequences | [Youtube](https://youtu.be/uEwxvQ9lXAQ)| Multimodal Sentiment Analysis, Time Series|
+| NLP | SCGPT : Few-shot Natural Language Generation for Task-Oriented Dialog | [Youtube](https://youtu.be/BAZxrp2nrF8)| Data-to-Text Generation, Few-Shot Learning|
 | NLP | ColBERT: Efficient and Effective Passage Search viaContextualized Late Interaction over BERT | [Youtube](https://youtu.be/5mynfZA2t7U)||
 | NLP | Restoring and Mining the Records ofthe Joseon Dynasty via Neural LanguageModeling and Machine Translation | [Youtube](https://youtu.be/BkyVMuvO5bE)||
 | NLP | Improving Factual Completeness and Consistency of Image to Text Radiology Report Generation | [Youtube](https://youtu.be/OZLcZML7SO8)||
