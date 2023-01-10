@@ -85,7 +85,6 @@ If you would like to attend the meeting or have any questions,
 | NLP | Debiased Contrastive learning of Unsupervised Sentence Representation | [Youtube](https://youtu.be/SJUZFEE5ELw)|
 | NLP | Calibrating Sequence Likelihood Improves Conditional Language Generation | [Youtube](https://youtu.be/yLifwXr3Q9k)|
 | NLP | CHAIN-OF-THOUGHT PROMPTING ELICITS REASONING IN LARGE LANGUAGE MODELS | [Youtube](https://youtu.be/9JBG2hAkP2E)|
-
 | Vision | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) <br> [paper](https://arxiv.org/pdf/1506.02640.pdf) |Object detection|
 | Vision  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) | |
 | Vision  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) <br> [paper](https://arxiv.org/pdf/1512.03385.pdf) |Image classification|
@@ -172,7 +171,6 @@ If you would like to attend the meeting or have any questions,
 | Vision | High-Resolution Image Synthesis with Latent Diffusion Models (Stable Diffusion) |[Youtube](https://youtu.be/7fBQDaJkcSU) |
 | Vision | Proper Reuse of Image Classification Features Improves Object Detection |[Youtube](https://youtu.be/Ikg5Mx3ITh4) |
 | Vision | Voxel Field Fusion for 3D Object Detection |[Youtube](https://youtu.be/NWAciZYUiXA) |
-
 | Recommend System | Matrix Factorization Technique for Recommender System | [Youtube](https://www.youtube.com/watch?v=Z49JNxS4vsc&t=260s) <br> [paper](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf)| Recommendation system |
 | Recommend System| Collaborative Filtering for Implicit Feedback Dataset | [Youtube](https://www.youtube.com/watch?v=ePvzTeLOBi4&t=6s) | |
 | Speech | A comparison of S2S models for speech recognition | [Youtube](https://www.youtube.com/watch?v=fltpFsNL8TA&t=463s)  <br> [paper](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/0233.PDF) | Speech Recognition|
