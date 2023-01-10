@@ -1,5 +1,10 @@
 # Deep learning Paper Reading Meeting Archive
 This page is an archive of the Deep Learning Paper Reading Meeting.
+you would like to attend the meeting or have any questions,
+Write in the GitHub issue table or email us at 'tfkeras@kakao.com'
+ 
+# Deep learning Paper Reading Meeting Archive
+This page is an archive of the Deep Learning Paper Reading Meeting.
 If you would like to attend the meeting or have any questions,
  Write in the GitHub issue table or email us at 'tfkeras@kakao.com'
  
@@ -60,6 +65,26 @@ If you would like to attend the meeting or have any questions,
 | NLP | ACHIEVING HUMAN PARITY ON VISUAL QUESTION ANSWERING | [Youtube](https://youtu.be/Gcbf0M0Qx9U)|
 | NLP | Deep Encoder, Shallow Decoder: Reevaluating non- autoregressive machine translation | [Youtube](https://youtu.be/sP7Ue_MbiKE)|
 | NLP | LaMDA : Language Models for Dialog Applications | [Youtube](https://youtu.be/re2AiBnFGGk)|
+| NLP | Competition-Level Code Generation with AlphaCode | [Youtube](https://youtu.be/c7jCWU_ChjE)|
+| NLP | Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks | [Youtube](https://youtu.be/IUwfhbZYTno)|
+| NLP | SimCLS: A Simple Framework for Contrastive Learning of Abstractive Summarization | [Youtube](https://youtu.be/3CPfP7oaXO8)|
+| NLP | Graph-Bert: Only Attention is Needed for Learning Graph Representations | [Youtube](https://youtu.be/2kQDL-byr0k)|
+| NLP | SimCSE:Simple Contrastive Learning of Sentence Embedding | [Youtube](https://youtu.be/RToEmUYyGO4)|
+| NLP | Typical decoding for Natural Language | [Youtube](https://youtu.be/1_xw30L31n8)|
+| NLP | Perceiver IO : A GENERAL ARCHITECTURE FOR STRUCTURED INPUTS & OUTPUTS | [Youtube](https://youtu.be/rRQ5uBWB9EQ)|
+| NLP | Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference | [Youtube](https://youtu.be/tdB0Y6hMtcg)|
+| NLP | Learning to Generalize to More:Continuous Semantic Augmentation for Neural Machine Translation | [Youtube](https://youtu.be/zy3jh-ygXFk)|
+| NLP | Multitask Prompted Training Enables Zero-Shot Task | [Youtube](https://youtu.be/AttJCATMhRo)|
+| NLP | Efficient Passage Retrieval with Hashing for Open-domain Question Answering(BPR) | [Youtube](https://youtu.be/ESzmoZU-QfQ)|
+| NLP | LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS | [Youtube](https://youtu.be/BJqwmDpa0wM)|
+| NLP | Weakly-supervised Text Classification Based on Keyword Graph | [Youtube](https://youtu.be/JYlRXo3a2R8)|
+| NLP | Improving the Quality Trade-Off for Neural Machine Translation Multi-Domain Adaptation | [Youtube](https://youtu.be/c8-aLsXqvus)|
+| NLP | AEDA: An Easier Data Augmentation Technique for Text Classification | [Youtube](https://youtu.be/E9rcpKtGars)|
+| NLP | GTRANS-Grouping and Fusing Transformer Layers for Neural Machine Translation | [Youtube](https://youtu.be/DgqnbETZNZw)|
+| NLP | SPLADE : Sparse Lexical and Expansion Model for First Stage Ranking | [Youtube](https://youtu.be/OvVajh6yPEg)|
+| NLP | Debiased Contrastive learning of Unsupervised Sentence Representation | [Youtube](https://youtu.be/SJUZFEE5ELw)|
+| NLP | Calibrating Sequence Likelihood Improves Conditional Language Generation | [Youtube](https://youtu.be/yLifwXr3Q9k)|
+| NLP | CHAIN-OF-THOUGHT PROMPTING ELICITS REASONING IN LARGE LANGUAGE MODELS | [Youtube](https://youtu.be/9JBG2hAkP2E)|
 | Vision | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) <br> [paper](https://arxiv.org/pdf/1506.02640.pdf) |Object detection|
 | Vision  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) | |
 | Vision  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) <br> [paper](https://arxiv.org/pdf/1512.03385.pdf) |Image classification|
@@ -125,6 +150,27 @@ If you would like to attend the meeting or have any questions,
 | Vision | Grounded Language-Image Pre-training |[Youtube](https://youtu.be/krP3t31fWvI) |
 | Vision | Transfer Learning for Pose Estimation of Illustrated Characters |[Youtube](https://youtu.be/wo3Ob174AfY) |
 | Vision | Sparse - RCNN paper explained |[Youtube](https://youtu.be/EvPMwKALqvs) |
+| Vision | NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis |[Youtube](https://youtu.be/Mk0y1L8TvKE) |
+| Vision | HRnet: Deep High-Resolution Representation Learning for Human Pose Estimation |[Youtube](https://youtu.be/GmANBttiHx4) |
+| Vision | MobileViT : Light-weight, general-purpose, and Mobile-friendly Vision Transformer |[Youtube](https://youtu.be/1vZ2wEsUdZc) |
+| Vision | Effectively Leveraging Attributes for Visual Similarity |[Youtube](https://youtu.be/FrdtIqyVhbc) |
+| Vision | Hard Negative Mixing for Contrastive learning |[Youtube](https://youtu.be/0hiHFJXcVvY) |
+| Vision | HOTR : Human-Object Interaction Detection with Transformer |[Youtube](https://youtu.be/OMTnuaemG_A) |
+| Vision | SSD: A UNIFIED FRAMEWORK FOR SELF-SUPERVISED OUTLIER DETECTION |[Youtube](https://youtu.be/37S7YuWDbng) |
+| Vision | StyleHEAT : One-Shot High-Resolution Editable Talking Face Generation via Pre-trained StyleGAN |[Youtube](https://youtu.be/FuUXwPffnrw) |
+| Vision | Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut |[Youtube](https://youtu.be/JCEK5nD4MKM) |
+| Vision | Transfusion: Understanding Transfer Learning for Medical Imaging |[Youtube](https://youtu.be/b2izifKXYA8) |
+| Vision | UCTransNet |[Youtube](https://youtu.be/SFwsc7s_Bww) |
+| Vision | A Simple Baseline for Semi-supervised Semantic Segmentation with Strong Data Augmentation |[Youtube](https://youtu.be/-ShKE82TSYI) |
+| Vision | Vision Transformer with Deformable Attention |[Youtube](https://youtu.be/hU7gP3u-tLQ) |
+| Vision | More ConvNets in the 2020s: Scaling up Kernels Beyond 51x51 using Sparsity |[Youtube](https://youtu.be/gK40oDVUZ9Q) |
+| Vision | PseCo: Pseudo Labeling and Consistency Training for Semi-Supervised Object Detection |[Youtube](https://youtu.be/C-NVH6StFQw) |
+| Vision | MetaFormer is Actually What You Need for Vision |[Youtube](https://youtu.be/ThCkRzh9Ohw) |
+| Vision | An Image is Worth 16x16 Words:Transformers for Image Recognition at Scale |[Youtube](https://youtu.be/MvZ2wzghbCg) |
+| Vision | BigDatasetGAN: Synthesizing ImageNet with Pixel-wise Annotations |[Youtube](https://youtu.be/VgYlBHXKAs0) |
+| Vision | High-Resolution Image Synthesis with Latent Diffusion Models (Stable Diffusion) |[Youtube](https://youtu.be/7fBQDaJkcSU) |
+| Vision | Proper Reuse of Image Classification Features Improves Object Detection |[Youtube](https://youtu.be/Ikg5Mx3ITh4) |
+| Vision | Voxel Field Fusion for 3D Object Detection |[Youtube](https://youtu.be/NWAciZYUiXA) |
 | Recommend System | Matrix Factorization Technique for Recommender System | [Youtube](https://www.youtube.com/watch?v=Z49JNxS4vsc&t=260s) <br> [paper](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf)| Recommendation system |
 | Recommend System| Collaborative Filtering for Implicit Feedback Dataset | [Youtube](https://www.youtube.com/watch?v=ePvzTeLOBi4&t=6s) | |
 | Speech | A comparison of S2S models for speech recognition | [Youtube](https://www.youtube.com/watch?v=fltpFsNL8TA&t=463s)  <br> [paper](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/0233.PDF) | Speech Recognition|
@@ -186,3 +232,14 @@ If you would like to attend the meeting or have any questions,
 | Fundamental | Transformer Interpretability Beyond Attention Visualization |[Youtube](https://youtu.be/XCED5bd2WT0) |
 | Fundamental | How does unlabeled data improve generalization in self-training? |[Youtube](https://youtu.be/t7dY-k-JBPA) |
 | Fundamental | Rainbow: Combining Improvements in Deep Reinforcement Learning |[Youtube](https://youtu.be/oC1AOIefjT8) |
+| Fundamental | Once-for-All: Train One Network and Specialize it for Efficient Deployment |[Youtube](https://youtu.be/xxvvVUhG5ik) |
+| Fundamental | Effective Diversity in Population Based Reinforce Learning |[Youtube](https://youtu.be/AG2uYbbXZuo) |
+| Fundamental | Fine-Tuning can Distort Pretrained Features and Under perform Out-of-Distribution |[Youtube](https://youtu.be/okBhSW2x2eQ) |
+| Fundamental | GCN-LRP explanationexploring latent attention of graph convolutional networks |[Youtube](https://youtu.be/u_sy3UfFJsU) |
+| Fundamental | Towards Safe Online Reinforced Learning in Computer Systems |[Youtube](https://youtu.be/LQRisuX0Ppc) |
+| Fundamental | Conflict-Averse Gradient Descent for Multi-task Learning |[Youtube](https://youtu.be/Q9E79bTBkQQ) |
+| Fundamental | Explainability Methods for Graph Convolutional Neural Networks |[Youtube](https://youtu.be/DJfbq_Ifnj8) |
+| Fundamental | Bayesian Action Decoder for Deep Multi-Agent Reinforcement Learning |[Youtube](https://youtu.be/P_Ca8zTSkM8) |
+| Fundamental | Efficiently Identifying Task Grouping for Multi-Task Learning |[Youtube](https://youtu.be/nqHMYewBPXg) |
+| Fundamental | DeepFM: A Factorization-Machine based Neural Network for CTR Prediction |[Youtube](https://youtu.be/otjvQYbGzEI) |
+| Fundamental | Task Adaptive Parameter Sharing for Multi-Task Learning |[Youtube](https://youtu.be/kk5nXrhUs0Q) |
