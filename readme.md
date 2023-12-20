@@ -81,6 +81,27 @@ Write in the GitHub issue table or email us at 'tfkeras@kakao.com'
 | NLP | Debiased Contrastive learning of Unsupervised Sentence Representation | [Youtube](https://youtu.be/SJUZFEE5ELw)|
 | NLP | Calibrating Sequence Likelihood Improves Conditional Language Generation | [Youtube](https://youtu.be/yLifwXr3Q9k)|
 | NLP | CHAIN-OF-THOUGHT PROMPTING ELICITS REASONING IN LARGE LANGUAGE MODELS | [Youtube](https://youtu.be/9JBG2hAkP2E)|
+| NLP | A Quantitative Analysis of Statistical and Graph-Based Term Weighting Schemes for Keyword Extraction | [Youtube](https://youtu.be/YHxoNhCWtic)|
+| NLP | Improving Neural Machine Translation with Soft Template Prediction | [Youtube](https://youtu.be/bkJKCvj0LYg)|
+| NLP | Minerva - Solving Quantitative Reasoning Problems with Language Models | [Youtube](https://youtu.be/CMshR8Kpefo)|
+| NLP | PaLM: Scaling Language Modeling with Pathways |[Youtube](https://youtu.be/1LDi_TuFy2I) |
+| NLP | Unsupervised Neural Machine Translation for Low-Resource Domains via Meta-Learning | [Youtube](https://youtu.be/QDPfIB1MiFg)|
+| NLP | Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond | [Youtube](https://youtu.be/3JBcvwn07x4)|
+| NLP | BRIO: Bringing Order to Abstractive SummarizationS | [Youtube](https://youtu.be/25LESLb93ck)|
+| NLP | Towards Robust and Reproducible Active Learning using Neural Networks | [Youtube](https://youtu.be/lhzU_ej5pcE)|
+| NLP | Scaling Instruction-Finetuned Language Models | [Youtube](https://youtu.be/lta-rKYtVbg)|
+| NLP | Packed Levitated Marker for Entity and Relation Extraction | [Youtube](https://youtu.be/aiS_iNOOUl8)|
+| NLP | LLaMA  Review! | [Youtube](https://youtu.be/-lYpL96mIug)|
+| NLP | P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks | [Youtube](https://youtu.be/9Ywkk455-Gk)|
+| NLP | MCSE:Multimodal Contrastive Learning of Sentence Embeddings| [Youtube](https://youtu.be/jtpDX9Xvh1A)|
+| NLP | Hyperbolic Image Embeddings | [Youtube](https://youtu.be/a7bOszhprAA)|
+| NLP | LIMA Less Is More for Alignment | [Youtube](https://youtu.be/bw6KDvLPTgU)|
+| NLP | Instruct GPT :  Training language models to follow instructions with human feedback | [Youtube](https://youtu.be/vTWV3t_ohQk)|
+| NLP | Iter-RetGen : Enhancing Retrieval augmented Large Language Models with Iterative Retrieval | [Youtube](https://youtu.be/f4Knme-dqP8)|
+| NLP | Textbooks Are All You need | [Youtube](https://youtu.be/YOd7Ukfg7wg)|
+| NLP | Embedding Text in Hyperbolic space | [Youtube](https://youtu.be/6CBj_mwGtK0)|
+| NLP | OpineSum : Entailment based self training for abstractive opinion summarization | [Youtube](https://youtu.be/MXugJIFN4qc)|
+| NLP | Do Androids Laugh at Electric Sheep  Humor “Understanding” Benchmarks from The New Yorker Caption | [Youtube](https://youtu.be/yCgsCyoJoMg)|
 | Vision | YOLO | [Youtube](https://www.youtube.com/watch?v=Ae-p7QVOdbA&t=285s) <br> [paper](https://arxiv.org/pdf/1506.02640.pdf) |Object detection|
 | Vision  | YOLO-v2 |[Youtube](https://www.youtube.com/watch?v=9FiGYp6khxo&t=8s) |Object detection |
 | Vision  | Resnet | [Youtube](https://www.youtube.com/watch?v=JI5kXF_OUkY&t=125s) <br> [paper](https://arxiv.org/pdf/1512.03385.pdf) |Image classification|
@@ -167,6 +188,27 @@ Write in the GitHub issue table or email us at 'tfkeras@kakao.com'
 | Vision | High-Resolution Image Synthesis with Latent Diffusion Models (Stable Diffusion) |[Youtube](https://youtu.be/7fBQDaJkcSU) |
 | Vision | Proper Reuse of Image Classification Features Improves Object Detection |[Youtube](https://youtu.be/Ikg5Mx3ITh4) |
 | Vision | Voxel Field Fusion for 3D Object Detection |[Youtube](https://youtu.be/NWAciZYUiXA) |
+| Vision | MedSefDiff: Medical Image Segmentation with Diffusion Probabilistic Model |[Youtube](https://youtu.be/gY3iFOIRs48) |
+| Vision | Pix2Seq |[Youtube](https://youtu.be/nLazWsQ5Opk) |
+| Vision | Self-Supervised Learning based on Heat Equation |[Youtube](https://youtu.be/oouLzu0sJfY) |
+| Vision | Cliff Diving : Exploring Reward Surfaces in Reinforcement Learning Environments |[Youtube](https://youtu.be/7OLrLrTYbm8) |
+| Vision | WHAT DO VISION TRANSFORMERS LEARN?A VISUAL EXPLORATION |[Youtube](https://youtu.be/lU4hyvXUJhw) |
+| Vision | InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions |[Youtube](https://youtu.be/e5lDg9O4FIQ) |
+| Vision | Cut and Learn for Unsupervised Object Detection and Instance Segmentation |[Youtube](https://youtu.be/lpDY2uhJJoc) |
+| Vision | The Forward-Forward Algorithm: Some Preliminary Investigations |[Youtube](https://youtu.be/vSzp1nPvYSw) |
+| Vision | Visual Prompt Tuning |[Youtube](https://youtu.be/bVOk-hSYyZw) |
+| Vision | Dataset Distillation by Matching Training Trajectories |[Youtube](https://youtu.be/w8zB77WaT0g) |
+| Vision | YOLO v6 |[Youtube](https://youtu.be/UOGMOLe0xtc) |
+| Vision | InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning |[Youtube](https://youtu.be/6Zxs7srpuK8) |
+| Vision | ImageBind One Embedding Space To Bind Them All |[Youtube](https://youtu.be/AeJxJBPBzeo) |
+| Vision | Learning to Generate Text grounded Mask for Open world Semantic Segmentation from Only Image-Text Pairs |[Youtube](https://youtu.be/jEpk8h-Grw8) |
+| Vision | Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold |[Youtube](https://youtu.be/2oLWZe9M1LU) |
+| Vision | Segment Anything in High Quality |[Youtube](https://youtu.be/pUedVuvkvnU) |
+| Vision | Multi Domain Learning for Motion Magnification |[Youtube](https://youtu.be/Sg7_sXMnRLo) |
+| Vision | 3D Gaussian Splatting for Real Time Radiance Field Rendering |[Youtube](https://youtu.be/gqJCWyYPtXQ) |
+| Vision | VoxelNet End-to-End Learning for Point Cloud Based 3D Object Detection |[Youtube](https://youtu.be/Q29eDs4nuWk) |
+| Vision | DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation |[Youtube](https://youtu.be/jq85UXiJEXk) |
+| Vision | MIC Masked Image Consistency for Context Enhanced Domain Adaptation |[Youtube](https://youtu.be/IgwpPkSpwUg) |
 | Recommend System | Matrix Factorization Technique for Recommender System | [Youtube](https://www.youtube.com/watch?v=Z49JNxS4vsc&t=260s) <br> [paper](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf)| Recommendation system |
 | Recommend System| Collaborative Filtering for Implicit Feedback Dataset | [Youtube](https://www.youtube.com/watch?v=ePvzTeLOBi4&t=6s) |recommender systems, Collaborative Filtering|
 | Speech | A comparison of S2S models for speech recognition | [Youtube](https://www.youtube.com/watch?v=fltpFsNL8TA&t=463s)  <br> [paper](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/0233.PDF) | Speech Recognition|
@@ -238,4 +280,17 @@ Write in the GitHub issue table or email us at 'tfkeras@kakao.com'
 | Fundamental | Bayesian Action Decoder for Deep Multi-Agent Reinforcement Learning |[Youtube](https://youtu.be/P_Ca8zTSkM8) |
 | Fundamental | Efficiently Identifying Task Grouping for Multi-Task Learning |[Youtube](https://youtu.be/nqHMYewBPXg) |
 | Fundamental | DeepFM: A Factorization-Machine based Neural Network for CTR Prediction |[Youtube](https://youtu.be/otjvQYbGzEI) |
-| Fundamental | Task Adaptive Parameter Sharing for Multi-Task Learning |[Youtube](https://youtu.be/kk5nXrhUs0Q) |
+| Fundamental | Deep Neural Networks for YouTube Recommendations |[Youtube](https://youtu.be/kk5nXrhUs0Q) |
+| reinforcement learning | Deep reinforcement learning from human preferences |[Youtube](https://youtu.be/B48rm3jeGmQ) |
+| reinforcement learning  | Distributional Reinforcement Learning via Moment Matching |[Youtube](https://youtu.be/rYXOGP52AA0) |
+| reinforcement learning  | Online Continual Learning on class Incremental Blurry Task Configuration with anytime inference |[Youtube](https://youtu.be/YjjWoMYGwPI) |
+| reinforcement learning | Dream To Control : Learning Behaviors by Latent Imagination |[Youtube](https://youtu.be/Bbduj2KyQ2Y) |
+| reinforcement learning  | Proximal Policy Optimization Algorithms |[Youtube](https://youtu.be/kk5nXrhUs0Q) |
+| reinforcement learning | Reinforced Genetic Algorithm Learning for Optimizing Computation Graphs |[Youtube](https://youtu.be/fs4J2Oq0nkg) |
+| reinforcement learning | VariBAD: A Very Good Method for Bayes-Adaptive Deep RL via Meta-Learning |[Youtube](https://youtu.be/mE4uZWmktV4) |
+| reinforcement learning | mPLUG: Effective and Efficient Vision-Language Learning byCross-modal Skip-connections |[Youtube](https://youtu.be/6uECXx75jIo) |
+| reinforcement learning | MOReL: Model-Based OfflineReinforcement Learning |[Youtube](https://youtu.be/mueizVwVqek) |
+| reinforcement learning | RL upside down |[Youtube](https://youtu.be/bsBvKdKCc1E) |
+| reinforcement learning | Trans Dreamer |[Youtube](https://youtu.be/TqCqKROQk6M) |
+| reinforcement learning | Trajectory Transformer |[Youtube](https://youtu.be/sqbxOkDPz4k) |
+| reinforcement learning | Addressing Optimism Bias in Sequence Modeling for RL |[Youtube](https://youtu.be/yBAtyOqF378) |
