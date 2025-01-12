@@ -3,8 +3,8 @@ This page is an archive of the Deep Learning Paper Reading Meeting.
 you would like to attend the meeting or have any questions,
 Write in the GitHub issue table or email us at 'tfkeras@kakao.com'
  
-| Tasks | Paper | Link| Performance Index|
-|:---------------|:-------------:|:-------------:|-------------:|
+| Tasks | Paper | Link| Performance Index| Highlights| 
+|:---------------|:-------------:|:-------------:|-------------:|-------------:|
 | NLP | Attention is all you need |[Youtube](https://www.youtube.com/watch?v=EyXehqvkfF0)<br> [Paper](https://arxiv.org/pdf/1706.03762.pdf)|Abstractive Text Summarization, Constituency Parsing|
 | NLP | BERT | [Youtube](https://www.youtube.com/watch?v=vo3cyr_8eDQ&t=7s) <br> [paper](https://arxiv.org/pdf/1810.04805.pdf)| Autoencoding Transformers, Transformers, Language Models|
 | NLP | ERNIE| [Youtube](https://www.youtube.com/watch?v=_K6izzEeKYg&t=985s) <br> [paper](https://arxiv.org/pdf/1905.07129.pdf)| Chinese Named Entity Recognition, Chinese Sentence Pair Classification |
