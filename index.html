@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>딥러닝 논문 읽기 모임 · Paper Archive | Cobslab</title>
+  <meta name="description" content="매주 한 편씩 함께 읽는 딥러닝 논문 아카이브. AI 연구의 최전선에서 함께 읽고, 토론하고, 성장합니다. 강사 섭외 및 프로젝트 협업 문의 환영." />
+  <meta name="keywords" content="딥러닝, 논문, 논문읽기모임, AI, 머신러닝, 인공지능, paper review, deep learning, Cobslab, 콥스랩, 강사 섭외, AI 프로젝트" />
+  <meta name="author" content="Cobslab" />
+  <link rel="canonical" href="https://your-username.github.io/your-repo/" />
+
+  <!-- Open Graph (카카오톡, 페이스북 미리보기) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="딥러닝 논문 읽기 모임 · Paper Archive" />
+  <meta property="og:description" content="매주 한 편씩 함께 읽는 딥러닝 논문 아카이브. 강사 섭외 및 프로젝트 협업 환영." />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:site_name" content="Cobslab Paper Archive" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="딥러닝 논문 읽기 모임 · Paper Archive" />
+  <meta name="twitter:description" content="매주 한 편씩 함께 읽는 딥러닝 논문 아카이브. 강사 섭외 및 프로젝트 협업 환영." />
+
+  <!-- Search engine indexing -->
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+
+  <!-- Structured data (JSON-LD) for Google Rich Results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "딥러닝 논문 읽기 모임",
+    "description": "매주 한 편씩 함께 읽는 딥러닝 논문 아카이브",
+    "inLanguage": "ko-KR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Cobslab",
+      "email": "tfkeras@kakao.com"
+    }
+  }
+  </script>
+
+  <!-- Pretendard via CDN (GitHub Pages 호환) -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+  />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-0: #050816;
+      --bg-1: #0a0e2a;
+      --accent-1: #6366f1;
+      --accent-2: #8b5cf6;
+      --accent-3: #ec4899;
+      --accent-4: #06b6d4;
+      --text-1: #f1f5f9;
+      --text-2: #cbd5e1;
+      --text-3: #94a3b8;
+      --border: rgba(148, 163, 184, 0.12);
+      --glass: rgba(255, 255, 255, 0.035);
+    }
+
+    html, body {
+      background: var(--bg-0);
+      color: var(--text-1);
+      font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Animated cosmic gradient background */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(99, 102, 241, 0.35), transparent 60%),
+        radial-gradient(ellipse 60% 40% at 80% 30%, rgba(139, 92, 246, 0.28), transparent 60%),
+        radial-gradient(ellipse 60% 40% at 15% 70%, rgba(6, 182, 212, 0.22), transparent 60%),
+        radial-gradient(ellipse 50% 30% at 75% 90%, rgba(236, 72, 153, 0.18), transparent 60%);
+      z-index: -2;
+      animation: floatBg 28s ease-in-out infinite alternate;
+    }
+    @keyframes floatBg {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(-40px, -30px) scale(1.12); }
+    }
+
+    /* Subtle grid overlay */
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: radial-gradient(ellipse at center, black, transparent 80%);
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    /* ============== HERO ============== */
+    .hero {
+      padding: 96px 24px 56px;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 16px;
+      border-radius: 999px;
+      background: rgba(99, 102, 241, 0.12);
+      border: 1px solid rgba(99, 102, 241, 0.35);
+      color: #c7d2fe;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 28px;
+      backdrop-filter: blur(12px);
+    }
+    .hero-badge .dot {
+      width: 6px;
+      height: 6px;
+      background: #34d399;
+      border-radius: 50%;
+      box-shadow: 0 0 12px #34d399;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    .hero h1 {
+      font-size: clamp(38px, 6.4vw, 76px);
+      font-weight: 800;
+      letter-spacing: -0.035em;
+      line-height: 1.04;
+      margin-bottom: 22px;
+      background: linear-gradient(135deg, #ffffff 0%, #c7d2fe 55%, #a5b4fc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero h1 .accent {
+      background: linear-gradient(135deg, #818cf8 0%, #c084fc 50%, #f472b6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      display: inline-block;
+    }
+
+    .hero p {
+      font-size: clamp(15px, 1.6vw, 18px);
+      color: var(--text-3);
+      max-width: 600px;
+      margin: 0 auto 40px;
+    }
+
+    /* Stats */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .stat {
+      padding: 16px 26px;
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      backdrop-filter: blur(20px);
+      min-width: 130px;
+    }
+    .stat .num {
+      font-size: 30px;
+      font-weight: 700;
+      background: linear-gradient(135deg, #818cf8, #c084fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+    }
+    .stat .label {
+      font-size: 11px;
+      color: var(--text-3);
+      margin-top: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 500;
+    }
+
+    /* ============== CONTAINER ============== */
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+
+    /* Search bar */
+    .search-bar {
+      position: sticky;
+      top: 12px;
+      z-index: 10;
+      margin-bottom: 24px;
+      background: rgba(10, 14, 42, 0.72);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 6px 6px 6px 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .search-bar:focus-within {
+      border-color: rgba(99, 102, 241, 0.6);
+      box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.12);
+    }
+    .search-bar svg { flex-shrink: 0; color: var(--text-3); }
+    #search {
+      flex: 1;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text-1);
+      font-size: 15px;
+      font-family: inherit;
+      padding: 12px 4px;
+    }
+    #search::placeholder { color: var(--text-3); }
+    .clear-btn {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border);
+      color: var(--text-3);
+      padding: 8px 14px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 13px;
+      transition: all 0.2s;
+    }
+    .clear-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-1);
+    }
+
+    /* Category chips */
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 28px;
+    }
+    .chip {
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: var(--glass);
+      border: 1px solid var(--border);
+      color: var(--text-2);
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 0.2s;
+      backdrop-filter: blur(10px);
+      user-select: none;
+    }
+    .chip:hover {
+      border-color: rgba(99, 102, 241, 0.5);
+      color: var(--text-1);
+      transform: translateY(-1px);
+    }
+    .chip.active {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      border-color: transparent;
+      color: white;
+      box-shadow: 0 6px 24px rgba(99, 102, 241, 0.45);
+    }
+
+    /* Paper grid */
+    .papers {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 16px;
+    }
+
+    .paper-card {
+      position: relative;
+      padding: 24px;
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      backdrop-filter: blur(20px);
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      overflow: hidden;
+      animation: fadeUp 0.5s ease-out backwards;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .paper-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), transparent 55%);
+      opacity: 0;
+      transition: opacity 0.4s;
+      pointer-events: none;
+    }
+    .paper-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(99, 102, 241, 0.45);
+      box-shadow: 0 24px 60px -22px rgba(99, 102, 241, 0.45);
+    }
+    .paper-card:hover::before { opacity: 1; }
+
+    .paper-card .category {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 7px;
+      background: rgba(139, 92, 246, 0.15);
+      border: 1px solid rgba(139, 92, 246, 0.35);
+      color: #c4b5fd;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+    }
+
+    .paper-card h3 {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text-1);
+      margin-bottom: 12px;
+      line-height: 1.45;
+      letter-spacing: -0.01em;
+    }
+
+    .paper-card .highlight {
+      font-size: 13.5px;
+      color: var(--text-3);
+      line-height: 1.65;
+      margin-bottom: 16px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .paper-card .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      position: relative;
+    }
+    .paper-card .links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 6px 11px;
+      border-radius: 8px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: #7dd3fc;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .paper-card .links a:hover {
+      background: rgba(56, 189, 248, 0.2);
+      color: #bae6fd;
+      transform: translateY(-1px);
+    }
+
+    /* Empty / loader */
+    .empty, .loader {
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text-3);
+    }
+    .empty .icon { font-size: 44px; margin-bottom: 14px; opacity: 0.55; }
+    .spinner {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      border: 3px solid rgba(99, 102, 241, 0.2);
+      border-top-color: #818cf8;
+      border-radius: 50%;
+      animation: spin 0.85s linear infinite;
+      margin-bottom: 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ============== CTA / Reviewer recruitment ============== */
+    .cta-section {
+      margin-top: 80px;
+      padding: 56px 36px;
+      background:
+        linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.05)),
+        var(--glass);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      text-align: center;
+      backdrop-filter: blur(22px);
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-section::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -10%;
+      width: 120%;
+      height: 200%;
+      background: radial-gradient(ellipse at center, rgba(139, 92, 246, 0.18), transparent 60%);
+      animation: floatGlow 9s ease-in-out infinite alternate;
+      pointer-events: none;
+    }
+    @keyframes floatGlow {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(40px, 25px); }
+    }
+
+    .cta-section .label {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      color: #a5b4fc;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+      position: relative;
+    }
+    .cta-section h2 {
+      font-size: clamp(24px, 4vw, 38px);
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      margin-bottom: 16px;
+      position: relative;
+      background: linear-gradient(135deg, #fff, #c7d2fe);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.2;
+    }
+    .cta-section p {
+      color: var(--text-3);
+      max-width: 540px;
+      margin: 0 auto 32px;
+      font-size: 15px;
+      position: relative;
+    }
+
+    .cta-actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      position: relative;
+    }
+
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      border-radius: 14px;
+      transition: all 0.3s;
+      box-shadow: 0 12px 32px -10px rgba(99, 102, 241, 0.55);
+    }
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 18px 44px -10px rgba(99, 102, 241, 0.75);
+    }
+    .cta-btn-ghost {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+      color: var(--text-2);
+      box-shadow: none;
+    }
+    .cta-btn-ghost:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-1);
+      box-shadow: none;
+    }
+
+    /* Floating mail button */
+    .float-mail {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: 0 12px 30px -8px rgba(99, 102, 241, 0.6);
+      z-index: 50;
+      transition: all 0.3s;
+    }
+    .float-mail:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 18px 40px -8px rgba(99, 102, 241, 0.8);
+    }
+    .float-mail .tip {
+      position: absolute;
+      right: 70px;
+      background: rgba(10, 14, 42, 0.9);
+      border: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+      padding: 8px 14px;
+      border-radius: 10px;
+      font-size: 13px;
+      white-space: nowrap;
+      color: var(--text-2);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateX(8px);
+      transition: all 0.25s;
+    }
+    .float-mail:hover .tip {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 40px 24px;
+      color: var(--text-3);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 40px;
+    }
+    footer a { color: #818cf8; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* Mobile */
+    @media (max-width: 640px) {
+      .hero { padding: 60px 20px 36px; }
+      .papers { grid-template-columns: 1fr; }
+      .container { padding: 0 16px 60px; }
+      .cta-section { padding: 40px 22px; }
+      .float-mail { bottom: 18px; right: 18px; width: 50px; height: 50px; }
+      .float-mail .tip { display: none; }
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 10px; height: 10px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(99, 102, 241, 0.3);
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(99, 102, 241, 0.5); }
+  </style>
+</head>
+<body>
+
+  <!-- ============== HERO ============== -->
+  <section class="hero">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      <span>매주 새로운 논문 · 강사 · 프로젝트 협업 환영</span>
+    </div>
+    <h1>
+      딥러닝 <span class="accent">논문 읽기 모임</span>
+    </h1>
+    <p>
+      AI 연구의 최전선에서 함께 읽고, 토론하고, 성장합니다.<br />
+      매주 한 편의 논문, 한 명의 발표자, 그리고 깊이 있는 인사이트.
+    </p>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <!-- ============== MAIN ============== -->
+  <main class="container">
+    <div class="search-bar">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input id="search" placeholder="논문 제목, 분야, 키워드로 검색해보세요..." />
+      <button class="clear-btn" id="clearBtn" style="display:none;">초기화</button>
+    </div>
+
+    <div class="chips" id="chips"></div>
+
+    <div id="content">
+      <div class="loader">
+        <div class="spinner"></div>
+        <div>논문을 불러오는 중...</div>
+      </div>
+    </div>
+
+    <!-- ============== CTA: Company / collaboration pitch (subtle) ============== -->
+    <section class="cta-section">
+      <div class="label">✦ Let's Collaborate</div>
+      <h2>제안하고 싶은 내용이 있으신가요?</h2>
+      <p>
+        Cobslab은 <strong style="color:#c7d2fe; font-weight:600;">AI 강사 섭외</strong>와
+        <strong style="color:#c7d2fe; font-weight:600;">프로젝트 협업</strong>을 함께하고 있습니다.<br />
+        리뷰어 참여, 강의 의뢰, 프로젝트 제안 — 어떤 이야기든 편하게 메일 주세요.
+      </p>
+      <div class="cta-actions">
+        <a href="mailto:your-email@example.com?subject=%5BCobslab%5D%20%EB%AC%B8%EC%9D%98%2F%EC%A0%9C%EC%95%88&body=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%2C%20Cobslab%EC%97%90%20%EB%AC%B8%EC%9D%98%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4.%0A%0A%5B%EB%82%B4%EC%9A%A9%5D%0A" class="cta-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          메일로 제안하기
+        </a>
+        <a href="#" class="cta-btn cta-btn-ghost" id="githubLink">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+          GitHub Repository
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating mail button -->
+  <a href="mailto:your-email@example.com?subject=%5BCobslab%5D%20%EB%AC%B8%EC%9D%98%2F%EC%A0%9C%EC%95%88" class="float-mail" aria-label="문의 / 제안">
+    <span class="tip">제안 / 문의 보내기 →</span>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+      <polyline points="22,6 12,13 2,6"></polyline>
+    </svg>
+  </a>
+
+  <footer>
+    <div style="margin-bottom:10px;">
+      <a href="mailto:tfkeras@kakao.com" style="color:var(--text-2);">tfkeras@kakao.com</a>
+       · 
+      Hosted on <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a>
+    </div>
+    <div style="font-size:12px; letter-spacing:0.08em; color:var(--text-3);">
+      Powered by <strong style="background:linear-gradient(135deg,#818cf8,#c084fc); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; font-weight:700;">Cobslab</strong>
+       · © <span id="year"></span>
+    </div>
+  </footer>
+
+  <script>
+    // === Configuration ===
+    // ⬇️ GitHub URL 만 본인 repo 로 바꿔주세요
+    const CONFIG = {
+      email: "tfkeras@kakao.com",
+      githubUrl: "https://github.com/your-username/your-repo",
+      readmePath: "README.md"
+    };
+
+    // Show current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // === State ===
+    let allData = [];
+    let currentCategory = "all";
+    let currentSearch = "";
+
+    // === Setup config-driven links ===
+    document.querySelectorAll('a[href^="mailto:your-email@example.com"]').forEach(a => {
+      a.href = a.href.replace("your-email@example.com", CONFIG.email);
+    });
+    document.getElementById("githubLink").href = CONFIG.githubUrl;
+
+    // === Data loading ===
+    async function loadMarkdown() {
+      const res = await fetch(CONFIG.readmePath);
+      if (!res.ok) throw new Error("README.md를 불러올 수 없습니다.");
+      return await res.text();
+    }
+
+    function parseTable(md) {
+      const lines = md.split("\n");
+      const tableLines = lines.filter(l => l.trim().startsWith("|"));
+      // skip header row + separator row
+      return tableLines
+        .slice(2)
+        .map(line => {
+          const cols = line.split("|").map(c => c.trim());
+          return {
+            category: cols[1] || "",
+            paper: cols[2] || "",
+            link: cols[3] || "",
+            extra: cols[4] || "",
+            highlight: cols[5] || ""
+          };
+        })
+        .filter(d => d.paper);
+    }
+
+    // Convert markdown links [text](url) into structured data
+    function parseLinks(text) {
+      if (!text) return [];
+      const links = [];
+      const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+      let m;
+      while ((m = re.exec(text)) !== null) {
+        links.push({ text: m[1], url: m[2] });
+      }
+      if (links.length === 0 && /^https?:\/\//.test(text.trim())) {
+        links.push({ text: "Link", url: text.trim() });
+      }
+      return links;
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    // === Render ===
+    function renderStats(data) {
+      const categories = new Set(data.map(d => d.category).filter(Boolean));
+      const stats = document.getElementById("stats");
+      stats.innerHTML = `
+        <div class="stat">
+          <div class="num">${data.length}</div>
+          <div class="label">Papers</div>
+        </div>
+        <div class="stat">
+          <div class="num">${categories.size}</div>
+          <div class="label">Categories</div>
+        </div>
+        <div class="stat">
+          <div class="num">∞</div>
+          <div class="label">Curiosity</div>
+        </div>
+      `;
+    }
+
+    function renderChips(data) {
+      const categories = ["all", ...Array.from(new Set(data.map(d => d.category).filter(Boolean)))];
+      const chips = document.getElementById("chips");
+      chips.innerHTML = categories
+        .map(c => `
+          <div class="chip ${c === currentCategory ? "active" : ""}" data-cat="${escapeHtml(c)}">
+            ${c === "all" ? "전체" : escapeHtml(c)}
+          </div>
+        `).join("");
+      chips.querySelectorAll(".chip").forEach(chip => {
+        chip.addEventListener("click", () => {
+          currentCategory = chip.dataset.cat;
+          renderChips(allData);
+          applyFilter();
+        });
+      });
+    }
+
+    function renderPapers(data) {
+      const content = document.getElementById("content");
+      if (data.length === 0) {
+        content.innerHTML = `
+          <div class="empty">
+            <div class="icon">🔍</div>
+            <div>일치하는 논문을 찾지 못했어요.</div>
+            <div style="margin-top:8px; font-size:13px;">검색어를 바꾸거나 필터를 초기화해 보세요.</div>
+          </div>
+        `;
+        return;
+      }
+      content.innerHTML = `
+        <div class="papers">
+          ${data.map((d, i) => {
+            const links = parseLinks(d.link);
+            const linksHtml = links.length > 0
+              ? links.map(l =>
+                  `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">↗ ${escapeHtml(l.text)}</a>`
+                ).join("")
+              : (d.link ? `<span style="color:var(--text-3); font-size:12px;">${escapeHtml(d.link)}</span>` : "");
+            return `
+              <article class="paper-card" style="animation-delay:${Math.min(i * 30, 400)}ms">
+                ${d.category ? `<div class="category">${escapeHtml(d.category)}</div>` : ""}
+                <h3>${escapeHtml(d.paper)}</h3>
+                ${d.highlight ? `<p class="highlight">${escapeHtml(d.highlight)}</p>` : ""}
+                <div class="links">${linksHtml}</div>
+              </article>
+            `;
+          }).join("")}
+        </div>
+      `;
+    }
+
+    function applyFilter() {
+      let filtered = allData;
+      if (currentCategory !== "all") {
+        filtered = filtered.filter(d => d.category === currentCategory);
+      }
+      if (currentSearch) {
+        const k = currentSearch.toLowerCase();
+        filtered = filtered.filter(d =>
+          (d.paper || "").toLowerCase().includes(k) ||
+          (d.category || "").toLowerCase().includes(k) ||
+          (d.highlight || "").toLowerCase().includes(k)
+        );
+      }
+      renderPapers(filtered);
+    }
+
+    function setupSearch() {
+      const search = document.getElementById("search");
+      const clearBtn = document.getElementById("clearBtn");
+      search.addEventListener("input", e => {
+        currentSearch = e.target.value;
+        clearBtn.style.display = currentSearch ? "block" : "none";
+        applyFilter();
+      });
+      clearBtn.addEventListener("click", () => {
+        search.value = "";
+        currentSearch = "";
+        clearBtn.style.display = "none";
+        search.focus();
+        applyFilter();
+      });
+    }
+
+    // === Init ===
+    (async () => {
+      try {
+        const md = await loadMarkdown();
+        allData = parseTable(md);
+        if (allData.length === 0) throw new Error("README.md에서 표 형식의 논문 목록을 찾지 못했습니다.");
+        renderStats(allData);
+        renderChips(allData);
+        renderPapers(allData);
+        setupSearch();
+      } catch (err) {
+        document.getElementById("content").innerHTML = `
+          <div class="empty">
+            <div class="icon">⚠️</div>
+            <div>${escapeHtml(err.message)}</div>
+            <div style="margin-top:8px; font-size:13px;">
+              README.md가 같은 디렉토리에 있고, <code>| 분야 | 논문 | 링크 | ... | 하이라이트 |</code> 형식의 표가 있는지 확인해 주세요.
+            </div>
+          </div>
+        `;
+      }
+    })();
+  </script>
+</body>
+</html>
