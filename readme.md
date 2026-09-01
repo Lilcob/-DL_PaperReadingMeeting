@@ -1,4 +1,6 @@
 # Deep learning Paper Reading Meeting Archive
+
+> Last updated: 2026-09-01 (KST) · [YouTube channel](https://www.youtube.com/channel/UCDULrK2OJsiDhFroa2Aj_LQ)
 This page is an archive of the Deep Learning Paper Reading Meeting.
 you would like to attend the meeting or have any questions,
 Write in the GitHub issue table or email us at 'tfkeras@kakao.com'
@@ -367,3 +369,31 @@ Write in the GitHub issue table or email us at 'tfkeras@kakao.com'
 | Vision / Generative Model | Diffusion LMMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing | [Youtube](https://www.youtube.com/channel/UCDULrK2OJsiDhFroa2Aj_LQ) | Diffusion LMM, Faster-than-AR, Generative Modeling | 이산 디퓨전 포싱을 통해 자동회귀 방식보다 빠른 멀티모달 생성 가능성을 제시. |
 | Person Re-ID | From Poses to Identity: Training-Free Person Re-Identification via Feature Centralization | [Youtube](https://www.youtube.com/channel/UCDULrK2OJsiDhFroa2Aj_LQ) | Person Re-ID, Training-Free Method, Feature Centralization | 별도 학습 없이 포즈와 특징 중심화를 활용해 사람 재식별 성능을 확보하는 방법. |
 | Vision-Language / Preference | OViP: Online Vision-Language Preference Learning | [Youtube](https://www.youtube.com/channel/UCDULrK2OJsiDhFroa2Aj_LQ) | Preference Learning, Vision-Language Model, Online Learning | 온라인 선호 학습을 통해 VLM이 사용자 의도와 시각적 판단 기준에 더 잘 맞도록 조정. || Vision / Policy Learning | UniPi: Learning Universal Policies via Text-Guided Video Generation | [Youtube](https://www.youtube.com/channel/UCDULrK2OJsiDhFroa2Aj_LQ) | Text-guided Video Generation, Policy Learning, Robotics | 텍스트 기반 비디오 생성을 정책 학습에 활용해 다양한 행동 계획을 생성하는 범용 정책 학습 방법. |
+
+---
+
+## Latest uploads & scheduled releases (2026–2027)
+
+The 19 reviews below were restored from the meeting archive with custom thumbnails, paper-based descriptions, and SRT captions. Videos are released every Monday at 20:00 KST in presentation-date order.
+
+| Release (KST) | Task | Paper | Links | Highlights |
+|---|---|---|---|---|
+| 2026-08-31 | Vision / Multimodal | C-MPDR | [YouTube](https://youtu.be/xkoIIMWE7UY) · [Paper](https://arxiv.org/abs/2308.11165) | 정합과 융합을 한 단계에서 수행해 멀티모달 영상의 고스트와 왜곡을 줄입니다. |
+| 2026-09-07 | Video Generation | LTX-Video | [YouTube](https://youtu.be/R3pDj6kH05s) · [Paper](https://arxiv.org/abs/2501.00103) | Video-VAE와 latent diffusion으로 5초 영상을 실시간보다 빠르게 생성합니다. |
+| 2026-09-14 | Vision / Detection | YOLO-World | [YouTube](https://youtu.be/WwajvFC-qNk) · [Paper](https://arxiv.org/abs/2401.17270) | 텍스트 프롬프트로 처음 보는 클래스까지 실시간 탐지하는 open-vocabulary detector입니다. |
+| 2026-09-21 | Generative Model | Simple Guidance Mechanisms for Discrete Diffusion Models | [YouTube](https://youtu.be/yr63LHA6L4s) · [Paper](https://arxiv.org/abs/2412.10193) | 연속 확산의 guidance를 이산 공간으로 확장해 생성 결과를 조건에 맞게 제어합니다. |
+| 2026-09-28 | LLM / Reasoning | Don't Overthink It | [YouTube](https://youtu.be/13-E9MqK-V0) · [Paper](https://arxiv.org/abs/2505.17813) | 짧은 추론 경로 선호가 정확도와 토큰 효율을 함께 높일 수 있음을 분석합니다. |
+| 2026-10-05 | Autonomous Driving | AdaRIP | [YouTube](https://youtu.be/p743FytyjPc) · [Paper](https://proceedings.mlr.press/v119/filos20a/filos20a.pdf) | 분포 이동을 감지하고 안전하게 회복하며 전문가 피드백으로 온라인 적응합니다. |
+| 2026-10-12 | LLM / Reasoning | DeepConf | [YouTube](https://youtu.be/yY0QHQ3dLuw) · [Paper](https://arxiv.org/abs/2508.15260) | 내부 confidence로 낮은 품질의 추론 경로를 걸러 test-time reasoning을 효율화합니다. |
+| 2026-10-19 | Robotics / VLA | SmolVLA | [YouTube](https://youtu.be/TP-IU8XMm-Y) · [Paper](https://arxiv.org/abs/2506.01844) | 약 450M 파라미터로 소비자용 하드웨어에서도 동작하는 경량 VLA 모델입니다. |
+| 2026-10-26 | NLP / RAG | REFRAG | [YouTube](https://youtu.be/uQL8Smdtmcw) · [Paper](https://arxiv.org/abs/2509.01092) | 검색 문맥을 압축·선별해 긴 컨텍스트와 빠른 첫 토큰 생성을 함께 달성합니다. |
+| 2026-11-02 | LLM / Fine-Tuning | Analyzing the Effects of Supervised Fine-Tuning on Model Knowledge | [YouTube](https://youtu.be/Kprnlz5nwVk) · [Paper](https://arxiv.org/abs/2509.16596) | SFT 데이터 증가가 항상 지식 향상으로 이어지지 않는 현상을 분석합니다. |
+| 2026-11-09 | NLP / Diffusion LM | Scaling Up Masked Diffusion Models on Text | [YouTube](https://youtu.be/767TEfIyRsA) · [Paper](https://arxiv.org/abs/2410.18514) | masked diffusion LM의 스케일링 특성과 양방향·비자동회귀 생성 가능성을 보입니다. |
+| 2026-11-16 | Speech / Multimodal | Freeze-Omni | [YouTube](https://youtu.be/Irx_t8JcjY4) · [Paper](https://arxiv.org/abs/2411.00774) | LLM을 고정한 채 음성 모듈만 학습해 저지연 speech-to-speech 대화를 구현합니다. |
+| 2026-11-23 | Vision / Generative Model | Scalable Diffusion Models with Transformers (DiT) | [YouTube](https://youtu.be/B7_ht9TDtIE) · [Paper](https://arxiv.org/abs/2212.09748) | U-Net 대신 Transformer를 사용하고 모델 규모에 따른 확산 모델의 성능 향상을 보입니다. |
+| 2026-11-30 | Vision / Generative Model | Scaling Rectified Flow Transformers for High-Resolution Image Synthesis | [YouTube](https://youtu.be/RJn9ZK1erQQ) · [Paper](https://arxiv.org/abs/2403.03206) | rectified flow와 멀티모달 Transformer를 결합한 고해상도 이미지 생성 방법입니다. |
+| 2026-12-07 | NLP / RAG | MiniRAG | [YouTube](https://youtu.be/B0N9ipD-G3I) · [Paper](https://arxiv.org/abs/2501.06713) | 작은 언어 모델에서도 동작하는 단순하고 저장 효율적인 graph-based RAG를 제안합니다. |
+| 2026-12-14 | Vision / State Space Model | VMamba | [YouTube](https://youtu.be/0zsgxqeoURI) · [Paper](https://arxiv.org/abs/2401.10166) | 2D selective scan으로 전역 시각 문맥을 선형 시간에 모델링합니다. |
+| 2026-12-21 | Robotics / VLA | π0: A Vision-Language-Action Flow Model for General Robot Control | [YouTube](https://youtu.be/lJpC5guveZA) · [Paper](https://arxiv.org/abs/2410.24164) | VLM과 flow-matching action expert를 결합해 여러 로봇의 연속 동작을 생성합니다. |
+| 2026-12-28 | Reinforcement Learning | Evolution Strategies at the Hyperscale (EGGROLL) | [YouTube](https://youtu.be/i0e-fkoYNQs) · [Paper](https://arxiv.org/abs/2511.16652) | 저랭크 perturbation으로 역전파 없이 대규모 모델의 진화 전략 학습을 확장합니다. |
+| 2027-01-04 | Vision / Self-Supervised Learning | What Do Self-Supervised Vision Transformers Learn? | [YouTube](https://youtu.be/SnTmUkJUCv8) · [Paper](https://arxiv.org/abs/2305.00729) | 대조학습과 masked image modeling이 ViT에서 학습하는 표현의 차이를 분석합니다. |
